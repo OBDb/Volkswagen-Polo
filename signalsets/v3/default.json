@@ -1,4 +1,7 @@
 { "commands": [
-
+{ "hdr": "710", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 30,
+  "signals": [
+    {"id": "POLO_ODO", "path": "Trips", "fmt": { "len": 32, "max": 255, "unit": "kilometers" }, "name": "Odometer"}
+  ]}
 ]
 }
