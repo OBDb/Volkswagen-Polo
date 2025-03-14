@@ -14,6 +14,10 @@
 { "hdr": "714", "dbg": true, "cmd": {"22": "229A"}, "freq": 30,
   "signals": [
     {"id": "POLO_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+  "signals": [
+    {"id": "POLO_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
   ]}
 ]
 }
