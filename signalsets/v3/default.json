@@ -1,8 +1,4 @@
 { "commands": [
-{ "hdr": "229", "dbg": true, "cmd": {"22": "229A"}, "freq": 30,
-  "signals": [
-    {"id": "POLO_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
-  ]},
 { "hdr": "710", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 30,
   "signals": [
     {"id": "POLO_ODO", "path": "Trips", "fmt": { "len": 32, "max": 255, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
@@ -10,6 +6,10 @@
 { "hdr": "714", "dbg": true, "cmd": {"22": "2294"}, "freq": 30,
   "signals": [
     {"id": "POLO_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 255, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "fuelRange"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "229A"}, "freq": 30,
+  "signals": [
+    {"id": "POLO_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]}
 ]
 }
