@@ -22,6 +22,26 @@
 { "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
   "signals": [
     {"id": "POLO_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
+  "signals": [
+    {"id": "POLO_CRSH_FRONT", "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+  "signals": [
+    {"id": "POLO_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+  "signals": [
+    {"id": "POLO_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+  "signals": [
+    {"id": "POLO_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+  "signals": [
+    {"id": "POLO_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]}
 ]
 }
