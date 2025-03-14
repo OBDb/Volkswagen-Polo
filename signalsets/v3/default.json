@@ -3,6 +3,10 @@
   "signals": [
     {"id": "POLO_ODO", "path": "Trips", "fmt": { "len": 32, "max": 255, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
+  "signals": [
+    {"id": "POLO_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
+  ]},
 { "hdr": "714", "dbg": true, "cmd": {"22": "2203"}, "freq": 30,
   "signals": [
     {"id": "POLO_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 255, "unit": "kilometers" }, "name": "Odometer (dash)", "suggestedMetric": "odometer"}
