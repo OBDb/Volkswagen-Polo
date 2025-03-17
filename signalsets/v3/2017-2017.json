@@ -1,0 +1,7 @@
+{ "commands": [
+{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 5,
+  "signals": [
+    {"id": "POLO_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
+  ]}
+]
+}
