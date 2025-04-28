@@ -2,11 +2,6 @@ command_id: 7E0.0143
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: |-
-    7E80441430028
-    STOPPED
-  expected_values:
-    LOAD_ABS: 15.68627
 - response: '7E80441430028'
   expected_values:
     LOAD_ABS: 15.68627

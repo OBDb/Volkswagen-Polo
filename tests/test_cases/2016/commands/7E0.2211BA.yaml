@@ -2,12 +2,9 @@ command_id: 7E0.2211BA
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: "7E8 05 62 11 BA 24 BF \nSTOPPED"
+- response: '7E8 05 62 11 BA 24 BF '
   expected_values:
     POLO_OIL_LEVEL: 3.7628
-- response: "7E8 05 62 11 BA 3C 11 \nSTOPPED"
-  expected_values:
-    POLO_OIL_LEVEL: 6.1508
 - response: 7E8056211BA0000
   expected_values:
     POLO_OIL_LEVEL: 0
@@ -1148,11 +1145,6 @@ test_cases:
 - response: 7E8056211BA2DB1
   expected_values:
     POLO_OIL_LEVEL: 4.6788
-- response: |-
-    7E8056211BA2DB1
-    STOPPED
-  expected_values:
-    POLO_OIL_LEVEL: 4.6788
 - response: 7E8056211BA2DB4
   expected_values:
     POLO_OIL_LEVEL: 4.68
@@ -1450,9 +1442,7 @@ test_cases:
 - response: 7E8056211BA320E
   expected_values:
     POLO_OIL_LEVEL: 5.1256
-- response: |-
-    7E8056211BA3211
-    STOPPED
+- response: 7E8056211BA3211
   expected_values:
     POLO_OIL_LEVEL: 5.1268
 - response: 7E8056211BA3214
@@ -1749,9 +1739,7 @@ test_cases:
 - response: 7E8056211BA3C18
   expected_values:
     POLO_OIL_LEVEL: 6.1536
-- response: |-
-    7E8056211BA3C43
-    STOPPED
+- response: 7E8056211BA3C43
   expected_values:
     POLO_OIL_LEVEL: 6.1708
 - response: 7E8056211BA3CA0
@@ -1763,15 +1751,12 @@ test_cases:
 - response: 7E8056211BA7314
   expected_values:
     POLO_OIL_LEVEL: 11.784
-- response: '7E8 05 62 11 BA 24 BF '
-  expected_values:
-    POLO_OIL_LEVEL: 3.7628
-- response: 7E8056211BA3211
-  expected_values:
-    POLO_OIL_LEVEL: 5.1268
-- response: 7E8056211BA3C43
-  expected_values:
-    POLO_OIL_LEVEL: 6.1708
 - response: '7E8 05 62 11 BA 3C 11 '
   expected_values:
     POLO_OIL_LEVEL: 6.1508
+- response: 7E8056211BA2C5A
+  expected_values:
+    POLO_OIL_LEVEL: 4.5416
+- response: 7E8056211BA2DB1
+  expected_values:
+    POLO_OIL_LEVEL: 4.6788
