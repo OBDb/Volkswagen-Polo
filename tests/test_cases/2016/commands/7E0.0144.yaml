@@ -2,64 +2,13 @@ command_id: 7E0.0144
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: "7E8 04 41 44 80 00 \nSTOPPED"
+- response: '7E8 04 41 44 80 00 '
   expected_values:
     EQ_RAT: 1.00002
-- response: |-
-    7E80441448000
-    STOPPED
+- response: '7E80441448000'
   expected_values:
     EQ_RAT: 1.00002
-- response: |-
-    7E8044144FFFF
-    STOPPED
-  expected_values:
-    EQ_RAT: 1.99
-- response: "7E8 04 41 44 80 00 \nSTOPPED"
-  expected_values:
-    EQ_RAT: 1.00002
-- response: |-
-    7E80441448000
-    STOPPED
-  expected_values:
-    EQ_RAT: 1.00002
-- response: |-
-    7E8044144FFFF
-    STOPPED
-  expected_values:
-    EQ_RAT: 1.99
-- response: |-
-    7E80441448000
-    STOPPED
-  expected_values:
-    EQ_RAT: 1.00002
-- response: "7E8 04 41 44 80 00 \nSTOPPED"
-  expected_values:
-    EQ_RAT: 1.00002
-- response: |-
-    7E804414479E8
-    STOPPED
-  expected_values:
-    EQ_RAT: 0.95241
-- response: |-
-    7E80441448000
-    STOPPED
-  expected_values:
-    EQ_RAT: 1.00002
-- response: |-
-    7E80441448068
-    STOPPED
-  expected_values:
-    EQ_RAT: 1.00319
-- response: '7E80441448350'
-  expected_values:
-    EQ_RAT: 1.02589
 - response: 7E8044144FFFF
-  expected_values:
-    EQ_RAT: 1.99
-- response: |-
-    7E8044144FFFF
-    STOPPED
   expected_values:
     EQ_RAT: 1.99
 - response: '7E8 04 41 44 80 00 '
@@ -68,9 +17,30 @@ test_cases:
 - response: '7E80441448000'
   expected_values:
     EQ_RAT: 1.00002
+- response: 7E8044144FFFF
+  expected_values:
+    EQ_RAT: 1.99
+- response: '7E80441448000'
+  expected_values:
+    EQ_RAT: 1.00002
+- response: '7E8 04 41 44 80 00 '
+  expected_values:
+    EQ_RAT: 1.00002
 - response: 7E804414479E8
   expected_values:
     EQ_RAT: 0.95241
+- response: '7E80441448000'
+  expected_values:
+    EQ_RAT: 1.00002
 - response: '7E80441448068'
   expected_values:
     EQ_RAT: 1.00319
+- response: '7E80441448350'
+  expected_values:
+    EQ_RAT: 1.02589
+- response: 7E8044144FFFF
+  expected_values:
+    EQ_RAT: 1.99
+- response: 7E8044144FFFF
+  expected_values:
+    EQ_RAT: 1.99

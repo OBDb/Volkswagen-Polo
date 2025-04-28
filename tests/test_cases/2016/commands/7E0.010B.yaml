@@ -2,161 +2,6 @@ command_id: 7E0.010B
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: |-
-    7E803410B16
-    STOPPED
-  expected_values:
-    MAP: 22
-- response: |-
-    7E803410B18
-    STOPPED
-  expected_values:
-    MAP: 24
-- response: |-
-    7E803410B2E
-    STOPPED
-  expected_values:
-    MAP: 46
-- response: |-
-    7E803410B3C
-    STOPPED
-  expected_values:
-    MAP: 60
-- response: |-
-    7E803410B4B
-    STOPPED
-  expected_values:
-    MAP: 75
-- response: |-
-    7E803410B4C
-    STOPPED
-  expected_values:
-    MAP: 76
-- response: |-
-    7E803410B52
-    STOPPED
-  expected_values:
-    MAP: 82
-- response: |-
-    7E803410B5E
-    STOPPED
-  expected_values:
-    MAP: 94
-- response: |-
-    7E803410B3F
-    STOPPED
-  expected_values:
-    MAP: 63
-- response: "7E8 03 41 0B 17 \nSTOPPED"
-  expected_values:
-    MAP: 23
-- response: "7E8 03 41 0B 2E \nSTOPPED"
-  expected_values:
-    MAP: 46
-- response: |-
-    7E803410B16
-    STOPPED
-  expected_values:
-    MAP: 22
-- response: |-
-    7E803410B18
-    STOPPED
-  expected_values:
-    MAP: 24
-- response: |-
-    7E803410B19
-    STOPPED
-  expected_values:
-    MAP: 25
-- response: |-
-    7E803410B99
-    STOPPED
-  expected_values:
-    MAP: 153
-- response: "7E8 03 41 0B 17 \nSTOPPED"
-  expected_values:
-    MAP: 23
-- response: "7E8 03 41 0B 58 \nSTOPPED"
-  expected_values:
-    MAP: 88
-- response: |-
-    7E803410B16
-    STOPPED
-  expected_values:
-    MAP: 22
-- response: 7E803410B17
-  expected_values:
-    MAP: 23
-- response: |-
-    7E803410B19
-    STOPPED
-  expected_values:
-    MAP: 25
-- response: 7E803410B1C
-  expected_values:
-    MAP: 28
-- response: 7E803410B21
-  expected_values:
-    MAP: 33
-- response: |-
-    7E803410B2B
-    STOPPED
-  expected_values:
-    MAP: 43
-- response: 7E803410B37
-  expected_values:
-    MAP: 55
-- response: |-
-    7E803410B3B
-    STOPPED
-  expected_values:
-    MAP: 59
-- response: 7E803410B3E
-  expected_values:
-    MAP: 62
-- response: |-
-    7E803410B41
-    STOPPED
-  expected_values:
-    MAP: 65
-- response: |-
-    7E803410B47
-    STOPPED
-  expected_values:
-    MAP: 71
-- response: |-
-    7E803410B48
-    STOPPED
-  expected_values:
-    MAP: 72
-- response: |-
-    7E803410B4D
-    STOPPED
-  expected_values:
-    MAP: 77
-- response: 7E803410B55
-  expected_values:
-    MAP: 85
-- response: |-
-    7E803410B57
-    STOPPED
-  expected_values:
-    MAP: 87
-- response: |-
-    7E803410B5E
-    STOPPED
-  expected_values:
-    MAP: 94
-- response: |-
-    7E803410B1E
-    STOPPED
-  expected_values:
-    MAP: 30
-- response: |-
-    7E803410B48
-    STOPPED
-  expected_values:
-    MAP: 72
 - response: 7E803410B16
   expected_values:
     MAP: 22
@@ -190,21 +35,51 @@ test_cases:
 - response: '7E8 03 41 0B 2E '
   expected_values:
     MAP: 46
+- response: 7E803410B16
+  expected_values:
+    MAP: 22
+- response: 7E803410B18
+  expected_values:
+    MAP: 24
 - response: 7E803410B19
   expected_values:
     MAP: 25
 - response: 7E803410B99
   expected_values:
     MAP: 153
+- response: '7E8 03 41 0B 17 '
+  expected_values:
+    MAP: 23
 - response: '7E8 03 41 0B 58 '
   expected_values:
     MAP: 88
+- response: 7E803410B16
+  expected_values:
+    MAP: 22
+- response: 7E803410B17
+  expected_values:
+    MAP: 23
+- response: 7E803410B19
+  expected_values:
+    MAP: 25
+- response: 7E803410B1C
+  expected_values:
+    MAP: 28
+- response: 7E803410B21
+  expected_values:
+    MAP: 33
 - response: 7E803410B2B
   expected_values:
     MAP: 43
+- response: 7E803410B37
+  expected_values:
+    MAP: 55
 - response: 7E803410B3B
   expected_values:
     MAP: 59
+- response: 7E803410B3E
+  expected_values:
+    MAP: 62
 - response: 7E803410B41
   expected_values:
     MAP: 65
@@ -217,9 +92,18 @@ test_cases:
 - response: 7E803410B4D
   expected_values:
     MAP: 77
+- response: 7E803410B55
+  expected_values:
+    MAP: 85
 - response: 7E803410B57
   expected_values:
     MAP: 87
+- response: 7E803410B5E
+  expected_values:
+    MAP: 94
 - response: 7E803410B1E
   expected_values:
     MAP: 30
+- response: 7E803410B48
+  expected_values:
+    MAP: 72
