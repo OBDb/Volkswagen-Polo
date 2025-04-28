@@ -1,0 +1,724 @@
+command_id: 7E0.2211BA
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056211BA0000
+  expected_values:
+    POLO_OIL_LEVEL: 0
+- response: 7E8056211BA2788
+  expected_values:
+    POLO_OIL_LEVEL: 4.048
+- response: 7E8056211BA28DC
+  expected_values:
+    POLO_OIL_LEVEL: 4.184
+- response: 7E8056211BA299C
+  expected_values:
+    POLO_OIL_LEVEL: 4.2608
+- response: 7E8056211BA29A6
+  expected_values:
+    POLO_OIL_LEVEL: 4.2648
+- response: 7E8056211BA29B1
+  expected_values:
+    POLO_OIL_LEVEL: 4.2692
+- response: 7E8056211BA29C6
+  expected_values:
+    POLO_OIL_LEVEL: 4.2776
+- response: 7E8056211BA29D1
+  expected_values:
+    POLO_OIL_LEVEL: 4.282
+- response: 7E8056211BA29DB
+  expected_values:
+    POLO_OIL_LEVEL: 4.286
+- response: 7E8056211BA29E6
+  expected_values:
+    POLO_OIL_LEVEL: 4.2904
+- response: 7E8056211BA29F1
+  expected_values:
+    POLO_OIL_LEVEL: 4.2948
+- response: 7E8056211BA29FB
+  expected_values:
+    POLO_OIL_LEVEL: 4.2988
+- response: 7E8056211BA2A06
+  expected_values:
+    POLO_OIL_LEVEL: 4.3032
+- response: 7E8056211BA2A1B
+  expected_values:
+    POLO_OIL_LEVEL: 4.3116
+- response: 7E8056211BA2A3B
+  expected_values:
+    POLO_OIL_LEVEL: 4.3244
+- response: 7E8056211BA2A46
+  expected_values:
+    POLO_OIL_LEVEL: 4.3288
+- response: 7E8056211BA2A50
+  expected_values:
+    POLO_OIL_LEVEL: 4.3328
+- response: 7E8056211BA2A5B
+  expected_values:
+    POLO_OIL_LEVEL: 4.3372
+- response: 7E8056211BA2A70
+  expected_values:
+    POLO_OIL_LEVEL: 4.3456
+- response: 7E8056211BA2A7B
+  expected_values:
+    POLO_OIL_LEVEL: 4.35
+- response: 7E8056211BA2A90
+  expected_values:
+    POLO_OIL_LEVEL: 4.3584
+- response: 7E8056211BA2ABB
+  expected_values:
+    POLO_OIL_LEVEL: 4.3756
+- response: 7E8056211BA2AC5
+  expected_values:
+    POLO_OIL_LEVEL: 4.3796
+- response: 7E8056211BA2AE5
+  expected_values:
+    POLO_OIL_LEVEL: 4.3924
+- response: 7E8056211BA2AF0
+  expected_values:
+    POLO_OIL_LEVEL: 4.3968
+- response: 7E8056211BA2AFA
+  expected_values:
+    POLO_OIL_LEVEL: 4.4008
+- response: 7E8056211BA2B05
+  expected_values:
+    POLO_OIL_LEVEL: 4.4052
+- response: 7E8056211BA2B2F
+  expected_values:
+    POLO_OIL_LEVEL: 4.422
+- response: 7E8056211BA2B3A
+  expected_values:
+    POLO_OIL_LEVEL: 4.4264
+- response: 7E8056211BA2B45
+  expected_values:
+    POLO_OIL_LEVEL: 4.4308
+- response: 7E8056211BA2B4F
+  expected_values:
+    POLO_OIL_LEVEL: 4.4348
+- response: 7E8056211BA2B5A
+  expected_values:
+    POLO_OIL_LEVEL: 4.4392
+- response: 7E8056211BA2B65
+  expected_values:
+    POLO_OIL_LEVEL: 4.4436
+- response: 7E8056211BA2B6F
+  expected_values:
+    POLO_OIL_LEVEL: 4.4476
+- response: 7E8056211BA2B8F
+  expected_values:
+    POLO_OIL_LEVEL: 4.4604
+- response: 7E8056211BA2B9A
+  expected_values:
+    POLO_OIL_LEVEL: 4.4648
+- response: 7E8056211BA2BAF
+  expected_values:
+    POLO_OIL_LEVEL: 4.4732
+- response: 7E8056211BA2BBA
+  expected_values:
+    POLO_OIL_LEVEL: 4.4776
+- response: 7E8056211BA2BD9
+  expected_values:
+    POLO_OIL_LEVEL: 4.49
+- response: 7E8056211BA2BE4
+  expected_values:
+    POLO_OIL_LEVEL: 4.4944
+- response: 7E8056211BA2BF9
+  expected_values:
+    POLO_OIL_LEVEL: 4.5028
+- response: 7E8056211BA2C04
+  expected_values:
+    POLO_OIL_LEVEL: 4.5072
+- response: 7E8056211BA2C0F
+  expected_values:
+    POLO_OIL_LEVEL: 4.5116
+- response: 7E8056211BA2C19
+  expected_values:
+    POLO_OIL_LEVEL: 4.5156
+- response: 7E8056211BA2C24
+  expected_values:
+    POLO_OIL_LEVEL: 4.52
+- response: 7E8056211BA2C39
+  expected_values:
+    POLO_OIL_LEVEL: 4.5284
+- response: 7E8056211BA2C4E
+  expected_values:
+    POLO_OIL_LEVEL: 4.5368
+- response: 7E8056211BA2C59
+  expected_values:
+    POLO_OIL_LEVEL: 4.5412
+- response: 7E8056211BA2C64
+  expected_values:
+    POLO_OIL_LEVEL: 4.5456
+- response: 7E8056211BA2C99
+  expected_values:
+    POLO_OIL_LEVEL: 4.5668
+- response: 7E8056211BA2CC3
+  expected_values:
+    POLO_OIL_LEVEL: 4.5836
+- response: 7E8056211BA2CCE
+  expected_values:
+    POLO_OIL_LEVEL: 4.588
+- response: 7E8056211BA2CD8
+  expected_values:
+    POLO_OIL_LEVEL: 4.592
+- response: 7E8056211BA2CEE
+  expected_values:
+    POLO_OIL_LEVEL: 4.6008
+- response: 7E8056211BA2CF8
+  expected_values:
+    POLO_OIL_LEVEL: 4.6048
+- response: 7E8056211BA2D43
+  expected_values:
+    POLO_OIL_LEVEL: 4.6348
+- response: 7E8056211BA2D4D
+  expected_values:
+    POLO_OIL_LEVEL: 4.6388
+- response: 7E8056211BA2D6D
+  expected_values:
+    POLO_OIL_LEVEL: 4.6516
+- response: 7E8056211BA2D8D
+  expected_values:
+    POLO_OIL_LEVEL: 4.6644
+- response: 7E8056211BA2DA2
+  expected_values:
+    POLO_OIL_LEVEL: 4.6728
+- response: 7E8056211BA2DAD
+  expected_values:
+    POLO_OIL_LEVEL: 4.6772
+- response: 7E8056211BA2DB8
+  expected_values:
+    POLO_OIL_LEVEL: 4.6816
+- response: 7E8056211BA2DCD
+  expected_values:
+    POLO_OIL_LEVEL: 4.69
+- response: 7E8056211BA2DD7
+  expected_values:
+    POLO_OIL_LEVEL: 4.694
+- response: 7E8056211BA2DE2
+  expected_values:
+    POLO_OIL_LEVEL: 4.6984
+- response: 7E8056211BA2DED
+  expected_values:
+    POLO_OIL_LEVEL: 4.7028
+- response: 7E8056211BA2DF7
+  expected_values:
+    POLO_OIL_LEVEL: 4.7068
+- response: 7E8056211BA2E0D
+  expected_values:
+    POLO_OIL_LEVEL: 4.7156
+- response: 7E8056211BA2E22
+  expected_values:
+    POLO_OIL_LEVEL: 4.724
+- response: 7E8056211BA2E2C
+  expected_values:
+    POLO_OIL_LEVEL: 4.728
+- response: 7E8056211BA2E37
+  expected_values:
+    POLO_OIL_LEVEL: 4.7324
+- response: 7E8056211BA2E42
+  expected_values:
+    POLO_OIL_LEVEL: 4.7368
+- response: 7E8056211BA2E4C
+  expected_values:
+    POLO_OIL_LEVEL: 4.7408
+- response: 7E8056211BA2E57
+  expected_values:
+    POLO_OIL_LEVEL: 4.7452
+- response: 7E8056211BA2E62
+  expected_values:
+    POLO_OIL_LEVEL: 4.7496
+- response: 7E8056211BA2E97
+  expected_values:
+    POLO_OIL_LEVEL: 4.7708
+- response: 7E8056211BA2EB7
+  expected_values:
+    POLO_OIL_LEVEL: 4.7836
+- response: 7E8056211BA2EC1
+  expected_values:
+    POLO_OIL_LEVEL: 4.7876
+- response: 7E8056211BA2ED6
+  expected_values:
+    POLO_OIL_LEVEL: 4.796
+- response: 7E8056211BA2EE1
+  expected_values:
+    POLO_OIL_LEVEL: 4.8004
+- response: 7E8056211BA2EEC
+  expected_values:
+    POLO_OIL_LEVEL: 4.8048
+- response: 7E8056211BA2EF6
+  expected_values:
+    POLO_OIL_LEVEL: 4.8088
+- response: 7E8056211BA2F0C
+  expected_values:
+    POLO_OIL_LEVEL: 4.8176
+- response: 7E8056211BA2F21
+  expected_values:
+    POLO_OIL_LEVEL: 4.826
+- response: 7E8056211BA2F36
+  expected_values:
+    POLO_OIL_LEVEL: 4.8344
+- response: 7E8056211BA2F41
+  expected_values:
+    POLO_OIL_LEVEL: 4.8388
+- response: 7E8056211BA2F56
+  expected_values:
+    POLO_OIL_LEVEL: 4.8472
+- response: 7E8056211BA2F61
+  expected_values:
+    POLO_OIL_LEVEL: 4.8516
+- response: 7E8056211BA2F6B
+  expected_values:
+    POLO_OIL_LEVEL: 4.8556
+- response: 7E8056211BA2F76
+  expected_values:
+    POLO_OIL_LEVEL: 4.86
+- response: 7E8056211BA2F80
+  expected_values:
+    POLO_OIL_LEVEL: 4.864
+- response: 7E8056211BA2F96
+  expected_values:
+    POLO_OIL_LEVEL: 4.8728
+- response: 7E8056211BA2FAB
+  expected_values:
+    POLO_OIL_LEVEL: 4.8812
+- response: 7E8056211BA2FB6
+  expected_values:
+    POLO_OIL_LEVEL: 4.8856
+- response: 7E8056211BA2FC0
+  expected_values:
+    POLO_OIL_LEVEL: 4.8896
+- response: 7E8056211BA2FCB
+  expected_values:
+    POLO_OIL_LEVEL: 4.894
+- response: 7E8056211BA2FD5
+  expected_values:
+    POLO_OIL_LEVEL: 4.898
+- response: 7E8056211BA2FEB
+  expected_values:
+    POLO_OIL_LEVEL: 4.9068
+- response: 7E8056211BA2FF5
+  expected_values:
+    POLO_OIL_LEVEL: 4.9108
+- response: 7E8056211BA3000
+  expected_values:
+    POLO_OIL_LEVEL: 4.9152
+- response: 7E8056211BA300B
+  expected_values:
+    POLO_OIL_LEVEL: 4.9196
+- response: 7E8056211BA3015
+  expected_values:
+    POLO_OIL_LEVEL: 4.9236
+- response: 7E8056211BA302A
+  expected_values:
+    POLO_OIL_LEVEL: 4.932
+- response: 7E8056211BA3040
+  expected_values:
+    POLO_OIL_LEVEL: 4.9408
+- response: 7E8056211BA304A
+  expected_values:
+    POLO_OIL_LEVEL: 4.9448
+- response: 7E8056211BA3055
+  expected_values:
+    POLO_OIL_LEVEL: 4.9492
+- response: 7E8056211BA3060
+  expected_values:
+    POLO_OIL_LEVEL: 4.9536
+- response: 7E8056211BA306A
+  expected_values:
+    POLO_OIL_LEVEL: 4.9576
+- response: 7E8056211BA3075
+  expected_values:
+    POLO_OIL_LEVEL: 4.962
+- response: 7E8056211BA307F
+  expected_values:
+    POLO_OIL_LEVEL: 4.966
+- response: 7E8056211BA309F
+  expected_values:
+    POLO_OIL_LEVEL: 4.9788
+- response: 7E8056211BA30AA
+  expected_values:
+    POLO_OIL_LEVEL: 4.9832
+- response: 7E8056211BA30B5
+  expected_values:
+    POLO_OIL_LEVEL: 4.9876
+- response: 7E8056211BA30BF
+  expected_values:
+    POLO_OIL_LEVEL: 4.9916
+- response: 7E8056211BA30CA
+  expected_values:
+    POLO_OIL_LEVEL: 4.996
+- response: 7E8056211BA30D4
+  expected_values:
+    POLO_OIL_LEVEL: 5
+- response: 7E8056211BA30D9
+  expected_values:
+    POLO_OIL_LEVEL: 5.002
+- response: 7E8056211BA30DD
+  expected_values:
+    POLO_OIL_LEVEL: 5.0036
+- response: 7E8056211BA30E1
+  expected_values:
+    POLO_OIL_LEVEL: 5.0052
+- response: 7E8056211BA30E5
+  expected_values:
+    POLO_OIL_LEVEL: 5.0068
+- response: 7E8056211BA30E9
+  expected_values:
+    POLO_OIL_LEVEL: 5.0084
+- response: 7E8056211BA30ED
+  expected_values:
+    POLO_OIL_LEVEL: 5.01
+- response: 7E8056211BA30F2
+  expected_values:
+    POLO_OIL_LEVEL: 5.012
+- response: 7E8056211BA30F6
+  expected_values:
+    POLO_OIL_LEVEL: 5.0136
+- response: 7E8056211BA30FA
+  expected_values:
+    POLO_OIL_LEVEL: 5.0152
+- response: 7E8056211BA30FE
+  expected_values:
+    POLO_OIL_LEVEL: 5.0168
+- response: 7E8056211BA3102
+  expected_values:
+    POLO_OIL_LEVEL: 5.0184
+- response: 7E8056211BA310B
+  expected_values:
+    POLO_OIL_LEVEL: 5.022
+- response: 7E8056211BA310F
+  expected_values:
+    POLO_OIL_LEVEL: 5.0236
+- response: 7E8056211BA3113
+  expected_values:
+    POLO_OIL_LEVEL: 5.0252
+- response: 7E8056211BA3117
+  expected_values:
+    POLO_OIL_LEVEL: 5.0268
+- response: 7E8056211BA311B
+  expected_values:
+    POLO_OIL_LEVEL: 5.0284
+- response: 7E8056211BA311F
+  expected_values:
+    POLO_OIL_LEVEL: 5.03
+- response: 7E8056211BA3124
+  expected_values:
+    POLO_OIL_LEVEL: 5.032
+- response: 7E8056211BA3128
+  expected_values:
+    POLO_OIL_LEVEL: 5.0336
+- response: 7E8056211BA312C
+  expected_values:
+    POLO_OIL_LEVEL: 5.0352
+- response: 7E8056211BA3134
+  expected_values:
+    POLO_OIL_LEVEL: 5.0384
+- response: 7E8056211BA3138
+  expected_values:
+    POLO_OIL_LEVEL: 5.04
+- response: 7E8056211BA313D
+  expected_values:
+    POLO_OIL_LEVEL: 5.042
+- response: 7E8056211BA3141
+  expected_values:
+    POLO_OIL_LEVEL: 5.0436
+- response: 7E8056211BA3145
+  expected_values:
+    POLO_OIL_LEVEL: 5.0452
+- response: 7E8056211BA3149
+  expected_values:
+    POLO_OIL_LEVEL: 5.0468
+- response: 7E8056211BA314D
+  expected_values:
+    POLO_OIL_LEVEL: 5.0484
+- response: 7E8056211BA3151
+  expected_values:
+    POLO_OIL_LEVEL: 5.05
+- response: 7E8056211BA3156
+  expected_values:
+    POLO_OIL_LEVEL: 5.052
+- response: 7E8056211BA315A
+  expected_values:
+    POLO_OIL_LEVEL: 5.0536
+- response: 7E8056211BA315E
+  expected_values:
+    POLO_OIL_LEVEL: 5.0552
+- response: 7E8056211BA3162
+  expected_values:
+    POLO_OIL_LEVEL: 5.0568
+- response: 7E8056211BA3166
+  expected_values:
+    POLO_OIL_LEVEL: 5.0584
+- response: 7E8056211BA316A
+  expected_values:
+    POLO_OIL_LEVEL: 5.06
+- response: 7E8056211BA316F
+  expected_values:
+    POLO_OIL_LEVEL: 5.062
+- response: 7E8056211BA3173
+  expected_values:
+    POLO_OIL_LEVEL: 5.0636
+- response: 7E8056211BA3177
+  expected_values:
+    POLO_OIL_LEVEL: 5.0652
+- response: 7E8056211BA317B
+  expected_values:
+    POLO_OIL_LEVEL: 5.0668
+- response: 7E8056211BA317F
+  expected_values:
+    POLO_OIL_LEVEL: 5.0684
+- response: 7E8056211BA3183
+  expected_values:
+    POLO_OIL_LEVEL: 5.07
+- response: 7E8056211BA3188
+  expected_values:
+    POLO_OIL_LEVEL: 5.072
+- response: 7E8056211BA318C
+  expected_values:
+    POLO_OIL_LEVEL: 5.0736
+- response: 7E8056211BA3190
+  expected_values:
+    POLO_OIL_LEVEL: 5.0752
+- response: 7E8056211BA3194
+  expected_values:
+    POLO_OIL_LEVEL: 5.0768
+- response: 7E8056211BA3198
+  expected_values:
+    POLO_OIL_LEVEL: 5.0784
+- response: 7E8056211BA319C
+  expected_values:
+    POLO_OIL_LEVEL: 5.08
+- response: 7E8056211BA31A1
+  expected_values:
+    POLO_OIL_LEVEL: 5.082
+- response: 7E8056211BA31A5
+  expected_values:
+    POLO_OIL_LEVEL: 5.0836
+- response: 7E8056211BA31A9
+  expected_values:
+    POLO_OIL_LEVEL: 5.0852
+- response: 7E8056211BA31AD
+  expected_values:
+    POLO_OIL_LEVEL: 5.0868
+- response: 7E8056211BA31B1
+  expected_values:
+    POLO_OIL_LEVEL: 5.0884
+- response: 7E8056211BA31B5
+  expected_values:
+    POLO_OIL_LEVEL: 5.09
+- response: 7E8056211BA31BA
+  expected_values:
+    POLO_OIL_LEVEL: 5.092
+- response: 7E8056211BA31C2
+  expected_values:
+    POLO_OIL_LEVEL: 5.0952
+- response: 7E8056211BA31C6
+  expected_values:
+    POLO_OIL_LEVEL: 5.0968
+- response: 7E8056211BA31CA
+  expected_values:
+    POLO_OIL_LEVEL: 5.0984
+- response: 7E8056211BA31D3
+  expected_values:
+    POLO_OIL_LEVEL: 5.102
+- response: 7E8056211BA31D7
+  expected_values:
+    POLO_OIL_LEVEL: 5.1036
+- response: 7E8056211BA31DB
+  expected_values:
+    POLO_OIL_LEVEL: 5.1052
+- response: 7E8056211BA31DF
+  expected_values:
+    POLO_OIL_LEVEL: 5.1068
+- response: 7E8056211BA31E3
+  expected_values:
+    POLO_OIL_LEVEL: 5.1084
+- response: 7E8056211BA31E7
+  expected_values:
+    POLO_OIL_LEVEL: 5.11
+- response: 7E8056211BA31EC
+  expected_values:
+    POLO_OIL_LEVEL: 5.112
+- response: 7E8056211BA31F0
+  expected_values:
+    POLO_OIL_LEVEL: 5.1136
+- response: 7E8056211BA31F4
+  expected_values:
+    POLO_OIL_LEVEL: 5.1152
+- response: 7E8056211BA31F8
+  expected_values:
+    POLO_OIL_LEVEL: 5.1168
+- response: 7E8056211BA31FC
+  expected_values:
+    POLO_OIL_LEVEL: 5.1184
+- response: 7E8056211BA3200
+  expected_values:
+    POLO_OIL_LEVEL: 5.12
+- response: 7E8056211BA3205
+  expected_values:
+    POLO_OIL_LEVEL: 5.122
+- response: 7E8056211BA3209
+  expected_values:
+    POLO_OIL_LEVEL: 5.1236
+- response: 7E8056211BA320D
+  expected_values:
+    POLO_OIL_LEVEL: 5.1252
+- response: 7E8056211BA3215
+  expected_values:
+    POLO_OIL_LEVEL: 5.1284
+- response: 7E8056211BA3219
+  expected_values:
+    POLO_OIL_LEVEL: 5.13
+- response: 7E8056211BA321E
+  expected_values:
+    POLO_OIL_LEVEL: 5.132
+- response: 7E8056211BA3222
+  expected_values:
+    POLO_OIL_LEVEL: 5.1336
+- response: 7E8056211BA3226
+  expected_values:
+    POLO_OIL_LEVEL: 5.1352
+- response: 7E8056211BA322A
+  expected_values:
+    POLO_OIL_LEVEL: 5.1368
+- response: 7E8056211BA322E
+  expected_values:
+    POLO_OIL_LEVEL: 5.1384
+- response: 7E8056211BA3232
+  expected_values:
+    POLO_OIL_LEVEL: 5.14
+- response: 7E8056211BA3237
+  expected_values:
+    POLO_OIL_LEVEL: 5.142
+- response: 7E8056211BA323B
+  expected_values:
+    POLO_OIL_LEVEL: 5.1436
+- response: 7E8056211BA323F
+  expected_values:
+    POLO_OIL_LEVEL: 5.1452
+- response: 7E8056211BA3243
+  expected_values:
+    POLO_OIL_LEVEL: 5.1468
+- response: 7E8056211BA3247
+  expected_values:
+    POLO_OIL_LEVEL: 5.1484
+- response: 7E8056211BA324B
+  expected_values:
+    POLO_OIL_LEVEL: 5.15
+- response: 7E8056211BA3250
+  expected_values:
+    POLO_OIL_LEVEL: 5.152
+- response: 7E8056211BA3254
+  expected_values:
+    POLO_OIL_LEVEL: 5.1536
+- response: 7E8056211BA325C
+  expected_values:
+    POLO_OIL_LEVEL: 5.1568
+- response: 7E8056211BA3260
+  expected_values:
+    POLO_OIL_LEVEL: 5.1584
+- response: 7E8056211BA3269
+  expected_values:
+    POLO_OIL_LEVEL: 5.162
+- response: 7E8056211BA326D
+  expected_values:
+    POLO_OIL_LEVEL: 5.1636
+- response: 7E8056211BA3271
+  expected_values:
+    POLO_OIL_LEVEL: 5.1652
+- response: 7E8056211BA3275
+  expected_values:
+    POLO_OIL_LEVEL: 5.1668
+- response: 7E8056211BA3279
+  expected_values:
+    POLO_OIL_LEVEL: 5.1684
+- response: 7E8056211BA327D
+  expected_values:
+    POLO_OIL_LEVEL: 5.17
+- response: 7E8056211BA3282
+  expected_values:
+    POLO_OIL_LEVEL: 5.172
+- response: 7E8056211BA3286
+  expected_values:
+    POLO_OIL_LEVEL: 5.1736
+- response: 7E8056211BA328E
+  expected_values:
+    POLO_OIL_LEVEL: 5.1768
+- response: 7E8056211BA3292
+  expected_values:
+    POLO_OIL_LEVEL: 5.1784
+- response: 7E8056211BA3296
+  expected_values:
+    POLO_OIL_LEVEL: 5.18
+- response: 7E8056211BA329B
+  expected_values:
+    POLO_OIL_LEVEL: 5.182
+- response: 7E8056211BA329F
+  expected_values:
+    POLO_OIL_LEVEL: 5.1836
+- response: 7E8056211BA32A3
+  expected_values:
+    POLO_OIL_LEVEL: 5.1852
+- response: 7E8056211BA32AB
+  expected_values:
+    POLO_OIL_LEVEL: 5.1884
+- response: 7E8056211BA32AF
+  expected_values:
+    POLO_OIL_LEVEL: 5.19
+- response: 7E8056211BA32B4
+  expected_values:
+    POLO_OIL_LEVEL: 5.192
+- response: 7E8056211BA32B8
+  expected_values:
+    POLO_OIL_LEVEL: 5.1936
+- response: 7E8056211BA32C0
+  expected_values:
+    POLO_OIL_LEVEL: 5.1968
+- response: 7E8056211BA32C4
+  expected_values:
+    POLO_OIL_LEVEL: 5.1984
+- response: 7E8056211BA32C8
+  expected_values:
+    POLO_OIL_LEVEL: 5.2
+- response: 7E8056211BA32CD
+  expected_values:
+    POLO_OIL_LEVEL: 5.202
+- response: 7E8056211BA32D5
+  expected_values:
+    POLO_OIL_LEVEL: 5.2052
+- response: 7E8056211BA32D9
+  expected_values:
+    POLO_OIL_LEVEL: 5.2068
+- response: 7E8056211BA32DD
+  expected_values:
+    POLO_OIL_LEVEL: 5.2084
+- response: 7E8056211BA32E1
+  expected_values:
+    POLO_OIL_LEVEL: 5.21
+- response: 7E8056211BA32E6
+  expected_values:
+    POLO_OIL_LEVEL: 5.212
+- response: 7E8056211BA32EE
+  expected_values:
+    POLO_OIL_LEVEL: 5.2152
+- response: 7E8056211BA32F2
+  expected_values:
+    POLO_OIL_LEVEL: 5.2168
+- response: 7E8056211BA32F6
+  expected_values:
+    POLO_OIL_LEVEL: 5.2184
+- response: 7E8056211BA32FF
+  expected_values:
+    POLO_OIL_LEVEL: 5.222
+- response: 7E8056211BA3307
+  expected_values:
+    POLO_OIL_LEVEL: 5.2252
+- response: 7E8056211BA330B
+  expected_values:
+    POLO_OIL_LEVEL: 5.2268
+- response: 7E8056211BA3313
+  expected_values:
+    POLO_OIL_LEVEL: 5.23
+- response: 7E8056211BA336B
+  expected_values:
+    POLO_OIL_LEVEL: 5.2652

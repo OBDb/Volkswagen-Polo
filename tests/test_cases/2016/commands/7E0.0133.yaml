@@ -1,0 +1,20 @@
+command_id: 7E0.0133
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E80341335C
+    STOPPED
+  expected_values:
+    BARO: 92
+- response: |-
+    7E80341335E
+    STOPPED
+  expected_values:
+    BARO: 94
+- response: 7E80341335C
+  expected_values:
+    BARO: 92
+- response: 7E80341335E
+  expected_values:
+    BARO: 94

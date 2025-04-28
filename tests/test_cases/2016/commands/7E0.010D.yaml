@@ -1,0 +1,137 @@
+command_id: 7E0.010D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E803410D2C
+    STOPPED
+  expected_values:
+    VSS: 44
+- response: |-
+    7E803410D2D
+    STOPPED
+  expected_values:
+    VSS: 45
+- response: |-
+    7E803410D2E
+    STOPPED
+  expected_values:
+    VSS: 46
+- response: 7E803410D30
+  expected_values:
+    VSS: 48
+- response: |-
+    7E803410D35
+    STOPPED
+  expected_values:
+    VSS: 53
+- response: |-
+    7E803410D35
+    STOPPED
+  expected_values:
+    VSS: 53
+- response: |-
+    7E803410D48
+    STOPPED
+  expected_values:
+    VSS: 72
+- response: 7E803410D6E
+  expected_values:
+    VSS: 110
+- response: |-
+    7E803410D6E
+    STOPPED
+  expected_values:
+    VSS: 110
+- response: |-
+    7E803410D6E
+    STOPPED
+  expected_values:
+    VSS: 110
+- response: |-
+    7E803410D00
+    STOPPED
+  expected_values:
+    VSS: 0
+- response: |-
+    7E803410D21
+    STOPPED
+  expected_values:
+    VSS: 33
+- response: |-
+    7E803410D6E
+    STOPPED
+  expected_values:
+    VSS: 110
+- response: |-
+    7E803410D00
+    STOPPED
+  expected_values:
+    VSS: 0
+- response: 7E803410D02
+  expected_values:
+    VSS: 2
+- response: 7E803410D04
+  expected_values:
+    VSS: 4
+- response: 7E803410D29
+  expected_values:
+    VSS: 41
+- response: |-
+    7E803410D29
+    STOPPED
+  expected_values:
+    VSS: 41
+- response: 7E803410D2D
+  expected_values:
+    VSS: 45
+- response: |-
+    7E803410D2D
+    STOPPED
+  expected_values:
+    VSS: 45
+- response: 7E803410D33
+  expected_values:
+    VSS: 51
+- response: |-
+    7E803410D33
+    STOPPED
+  expected_values:
+    VSS: 51
+- response: |-
+    7E803410D36
+    STOPPED
+  expected_values:
+    VSS: 54
+- response: "7E8 03 41 0D 24 \nSTOPPED"
+  expected_values:
+    VSS: 36
+- response: |-
+    7E803410D6E
+    STOPPED
+  expected_values:
+    VSS: 110
+- response: 7E803410D2C
+  expected_values:
+    VSS: 44
+- response: 7E803410D2E
+  expected_values:
+    VSS: 46
+- response: 7E803410D35
+  expected_values:
+    VSS: 53
+- response: 7E803410D48
+  expected_values:
+    VSS: 72
+- response: 7E803410D00
+  expected_values:
+    VSS: 0
+- response: 7E803410D21
+  expected_values:
+    VSS: 33
+- response: 7E803410D36
+  expected_values:
+    VSS: 54
+- response: '7E8 03 41 0D 24 '
+  expected_values:
+    VSS: 36
