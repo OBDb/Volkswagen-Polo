@@ -8,72 +8,15 @@ test_cases:
 - response: 7E8 03 41 11 24
   expected_values:
     TP: 14.11765
-- response: '7E803411125'
-  expected_values:
-    TP: 14.5098
-- response: '7E803411126'
-  expected_values:
-    TP: 14.90196
-- response: '7E803411127'
-  expected_values:
-    TP: 15.29412
-- response: '7E803411129'
-  expected_values:
-    TP: 16.07843
-- response: 7E80341112E
-  expected_values:
-    TP: 18.03922
-- response: 7E80341113D
-  expected_values:
-    TP: 23.92157
-- response: '7E803411125'
-  expected_values:
-    TP: 14.5098
-- response: '7E803411143'
-  expected_values:
-    TP: 26.27451
-- response: 7E8034111E0
-  expected_values:
-    TP: 87.84314
 - response: '7E8 03 41 11 24 '
   expected_values:
     TP: 14.11765
-- response: '7E803411124'
-  expected_values:
-    TP: 14.11765
-- response: '7E803411125'
-  expected_values:
-    TP: 14.5098
-- response: '7E803411127'
-  expected_values:
-    TP: 15.29412
-- response: '7E803411129'
-  expected_values:
-    TP: 16.07843
-- response: 7E80341112E
-  expected_values:
-    TP: 18.03922
-- response: '7E803411143'
-  expected_values:
-    TP: 26.27451
-- response: 7E8034111E1
-  expected_values:
-    TP: 88.23529
-- response: 7E8034111E1
-  expected_values:
-    TP: 88.23529
-- response: 7E80341113E
-  expected_values:
-    TP: 24.31373
-- response: '7E803411149'
-  expected_values:
-    TP: 28.62745
 - response: '7E8 03 41 11 26 '
   expected_values:
     TP: 14.90196
-- response: 7E80341111F
+- response: '7E8 03 41 11 3B '
   expected_values:
-    TP: 12.15686
+    TP: 23.13725
 - response: 7E80341111F
   expected_values:
     TP: 12.15686
@@ -83,9 +26,15 @@ test_cases:
 - response: '7E803411124'
   expected_values:
     TP: 14.11765
+- response: '7E803411125'
+  expected_values:
+    TP: 14.5098
 - response: '7E803411126'
   expected_values:
     TP: 14.90196
+- response: '7E803411127'
+  expected_values:
+    TP: 15.29412
 - response: '7E803411128'
   expected_values:
     TP: 15.68627
@@ -95,18 +44,15 @@ test_cases:
 - response: 7E80341112A
   expected_values:
     TP: 16.47059
-- response: 7E80341112A
-  expected_values:
-    TP: 16.47059
 - response: 7E80341112D
   expected_values:
     TP: 17.64706
+- response: 7E80341112E
+  expected_values:
+    TP: 18.03922
 - response: '7E803411130'
   expected_values:
     TP: 18.82353
-- response: '7E803411133'
-  expected_values:
-    TP: 20
 - response: '7E803411133'
   expected_values:
     TP: 20
@@ -116,21 +62,24 @@ test_cases:
 - response: 7E80341113D
   expected_values:
     TP: 23.92157
+- response: 7E80341113E
+  expected_values:
+    TP: 24.31373
 - response: '7E803411141'
   expected_values:
     TP: 25.4902
 - response: '7E803411143'
   expected_values:
     TP: 26.27451
+- response: '7E803411149'
+  expected_values:
+    TP: 28.62745
 - response: 7E8034111AB
   expected_values:
     TP: 67.05882
-- response: '7E8 03 41 11 3B '
+- response: 7E8034111E0
   expected_values:
-    TP: 23.13725
-- response: '7E803411125'
+    TP: 87.84314
+- response: 7E8034111E1
   expected_values:
-    TP: 14.5098
-- response: '7E803411141'
-  expected_values:
-    TP: 25.4902
+    TP: 88.23529
