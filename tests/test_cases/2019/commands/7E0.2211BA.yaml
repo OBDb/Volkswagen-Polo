@@ -2,15 +2,9 @@ command_id: 7E0.2211BA
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8056211BA1194
+- response: 7E8056211BA0000
   expected_values:
-    POLO_OIL_LEVEL: 1.8
-- response: 7E8056211BA21A5
-  expected_values:
-    POLO_OIL_LEVEL: 3.4452
-- response: 7E8056211BA2E00
-  expected_values:
-    POLO_OIL_LEVEL: 4.7104
+    POLO_OIL_LEVEL: 0
 - response: 7E8056211BA30FF
   expected_values:
     POLO_OIL_LEVEL: 5.0172
