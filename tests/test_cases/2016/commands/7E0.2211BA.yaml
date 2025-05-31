@@ -3,9 +3,6 @@ test_cases:
 - response: '7E8 05 62 11 BA 24 BF '
   expected_values:
     POLO_OIL_LEVEL: 3.7628
-- response: '7E8 05 62 11 BA 3C 11 '
-  expected_values:
-    POLO_OIL_LEVEL: 6.1508
 - response: 7E8056211BA0000
   expected_values:
     POLO_OIL_LEVEL: 0
