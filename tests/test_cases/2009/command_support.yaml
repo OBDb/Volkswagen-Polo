@@ -1,6 +1,7 @@
 model_year: 2009
 supported_commands_by_ecu:
   "7DF":
+  - 7DF.0104
   - 7DF.0110
   - 7DF.0124
   - 7DF.0131
@@ -67,6 +68,8 @@ unsupported_commands_by_ecu:
   - 715.222357:POLO_CRASH_CNT_ROLL
   "746":
   - 746.2227C4|fc=1:POLO_WNDSHLD_TEMP
+  "7DF":
+  - 7DF.0111
   "7E0":
   - 7E0.2211BA:POLO_OIL_LEVEL
   - 7E0.22295A:POLO_ODO_2
