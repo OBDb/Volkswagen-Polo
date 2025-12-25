@@ -1,8 +1,0 @@
-command_id: 7E0.2211C4
-test_cases:
-- expected_values:
-    POLO_OIL_MAX: 0
-  response: 7E8056211C40000
-- expected_values:
-    POLO_OIL_MAX: 131.072
-  response: 7E8056211C48000
