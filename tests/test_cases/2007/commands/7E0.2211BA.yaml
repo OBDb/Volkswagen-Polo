@@ -1,0 +1,14 @@
+command_id: 7E0.2211BA
+test_cases:
+- expected_values:
+    POLO_OIL_LEVEL: 7.38
+  response: 7E8056211BA4812
+- expected_values:
+    POLO_OIL_LEVEL: 7.4
+  response: 7E8056211BA4844
+- expected_values:
+    POLO_OIL_LEVEL: 7.4136
+  response: 7E8056211BA4866
+- expected_values:
+    POLO_OIL_LEVEL: 7.42
+  response: 7E8056211BA4876
