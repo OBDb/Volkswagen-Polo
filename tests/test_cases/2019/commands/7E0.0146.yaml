@@ -4,5 +4,5 @@ test_cases:
     AAT: 9
   response: '7E803414631'
 - expected_values:
-    AAT: 28
-  response: '7E803414644'
+    AAT: 30
+  response: '7E803414646'
