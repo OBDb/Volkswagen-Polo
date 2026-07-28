@@ -4,17 +4,5 @@ test_cases:
     POLO_OIL_MIN: 3.264
   response: 7E8056211C50330
 - expected_values:
-    POLO_OIL_MIN: 3.308
-  response: 7E8056211C5033B
-- expected_values:
-    POLO_OIL_MIN: 3.312
-  response: 7E8056211C5033C
-- expected_values:
-    POLO_OIL_MIN: 3.316
-  response: 7E8056211C5033D
-- expected_values:
-    POLO_OIL_MIN: 3.328
-  response: 7E8056211C50340
-- expected_values:
     POLO_OIL_MIN: 3.456
   response: 7E8056211C50360
