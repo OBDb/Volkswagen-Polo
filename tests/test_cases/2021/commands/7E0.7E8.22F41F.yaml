@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    POLO_RUNTM: 293
+  response: 7E80562F41F0125
+- expected_values:
+    POLO_RUNTM: 499
+  response: 7E80562F41F01F3
+- expected_values:
+    POLO_RUNTM: 529
+  response: 7E80562F41F0211
+- expected_values:
+    POLO_RUNTM: 1161
+  response: 7E80562F41F0489
