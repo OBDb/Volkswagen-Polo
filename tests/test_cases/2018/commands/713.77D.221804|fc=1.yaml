@@ -1,0 +1,8 @@
+command_id: 713.77D.221804|fc=1
+test_cases:
+- expected_values:
+    POLO_STEER_WHEEL_ANGLE_ABS: -14336
+  response: |-
+    77D1011621804800080
+    77D2100800080008000
+    77D2280008000AAAAAA

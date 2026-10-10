@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221004
+test_cases:
+- expected_values:
+    POLO_AAT_V2: 0.34375
+  response: 7E805621004002C
+- expected_values:
+    POLO_AAT_V2: -1.5
+  response: 7E805621004FF40
+- expected_values:
+    POLO_AAT_V2: -0.01562
+  response: 7E805621004FFFE

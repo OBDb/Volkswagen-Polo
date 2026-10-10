@@ -1,0 +1,5 @@
+command_id: 710.77A.222A0F|fc=1
+test_cases:
+- expected_values:
+    POLO_USE_BAT_CHG: 37
+  response: 77A04622A0F25

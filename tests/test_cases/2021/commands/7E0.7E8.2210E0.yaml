@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210E0
+test_cases:
+- expected_values:
+    POLO_ODO_7E0: 73948
+  response: 7E8076210E0000120DC
+- expected_values:
+    POLO_ODO_7E0: 73949
+  response: 7E8076210E0000120DD
+- expected_values:
+    POLO_ODO_7E0: 73950
+  response: 7E8076210E0000120DE
+- expected_values:
+    POLO_ODO_7E0: 73951
+  response: 7E8076210E0000120DF

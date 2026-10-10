@@ -1,0 +1,5 @@
+command_id: 714.77E.222299
+test_cases:
+- expected_values:
+    POLO_FUEL_AVG: 6.6
+  response: '77E056222990042'

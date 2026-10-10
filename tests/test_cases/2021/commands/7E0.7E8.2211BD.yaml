@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211BD
+test_cases:
+- expected_values:
+    POLO_EOT_ECM: 97.8
+  response: 7E8056211BD0E7D
+- expected_values:
+    POLO_EOT_ECM: 97.9
+  response: 7E8056211BD0E7E
+- expected_values:
+    POLO_EOT_ECM: 98
+  response: 7E8056211BD0E7F
+- expected_values:
+    POLO_EOT_ECM: 98.1
+  response: 7E8056211BD0E80
+- expected_values:
+    POLO_EOT_ECM: 98.3
+  response: 7E8056211BD0E82

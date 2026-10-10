@@ -1,0 +1,32 @@
+command_id: 7E1.7E9.223887
+test_cases:
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71083.2
+  response: 7E907623887B0D80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71083.4
+  response: 7E907623887B2D80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71083.9
+  response: 7E907623887B7D80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71084.5
+  response: 7E907623887BDD80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71084.8
+  response: 7E907623887C0D80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71085.1
+  response: 7E907623887C3D80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71085.4
+  response: 7E907623887C6D80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71085.6
+  response: 7E907623887C8D80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71085.9
+  response: 7E907623887CBD80A00
+- expected_values:
+    POLO_MQB_TCM_ODO_2: 71086.4
+  response: 7E907623887D0D80A00
