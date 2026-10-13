@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224056
+test_cases:
+- expected_values:
+    POLO_IDLE_SPD_SPEC_RPM: 860
+  response: 7E805624056035C

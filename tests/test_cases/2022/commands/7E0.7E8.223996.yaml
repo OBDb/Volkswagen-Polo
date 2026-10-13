@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223996
+test_cases:
+- expected_values:
+    POLO_MIXTURE_ADPT_FACTOR: 4.17
+  response: 7E80562399601A1

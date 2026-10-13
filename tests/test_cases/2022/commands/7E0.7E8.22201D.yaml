@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22201D
+test_cases:
+- expected_values:
+    POLO_CAM_ADPT_INT_BANK_1_SPEC: 0
+  response: 7E80562201D0000

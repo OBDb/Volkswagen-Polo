@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2229D1
+test_cases:
+- expected_values:
+    POLO_AIR_MASS_ACT_MG: 39.08
+  response: 7E8056229D10F44

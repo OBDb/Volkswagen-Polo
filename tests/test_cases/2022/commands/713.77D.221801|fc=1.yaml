@@ -1,0 +1,8 @@
+command_id: 713.77D.221801|fc=1
+test_cases:
+- expected_values:
+    POLO_FR_VSS_V2: 0
+  response: |-
+    77D100F621801000002
+    77D2100000100000000
+    77D220000AAAAAAAAAA
