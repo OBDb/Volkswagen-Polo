@@ -1,6 +1,12 @@
 command_id: 713.77D.221816|fc=1
 test_cases:
 - expected_values:
+    POLO_AIR_GAB_VACUUM_SNS: 52
+    POLO_BRAKE_P_SNS: 49.05
+  response: |-
+    77D100C621816011329
+    77D210023FFFF0034AA
+- expected_values:
     POLO_AIR_GAB_VACUUM_SNS: 62
     POLO_BRAKE_P_SNS: 50.71
   response: |-

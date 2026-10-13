@@ -2389,19 +2389,19 @@
   "signals": [
     {"id": "POLO_MIS_TOT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "291D"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MISFIRES_1000_RPM_C1_7E0", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "291E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MISFIRES_1000_RPM_C3_7E0", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "291F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MISFIRES_1000_RPM_C4_7E0", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2920"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "2920"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MISFIRES_1000_RPM_C2_7E0", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 2"}
   ]},
@@ -3554,11 +3554,11 @@
   "signals": [
     {"id": "POLO_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector d adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10AF"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AF"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10B0"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10B0"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_GR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position GR"}
   ]},
@@ -3927,27 +3927,27 @@
   "signals": [
     {"id": "POLO_ENG_TQ_7E1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "203F"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "cmd": {"22": "203F"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_TORQUE_LIMITATION_7E1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Torque limitation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2102"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2102"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_AT_INPUT_SPEED", "path": "Transmission", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Automatic transmission input speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2103"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2103"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_AT_OUTPUT_SPEED", "path": "Transmission", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Automatic transmission output speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2104"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_ATF_T_DUAL_CLU", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, dual-clutch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2105"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2105"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_TQ_TRANSMITTING", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Torque transmitting function, ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2106"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2106"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_VSS_HR", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed, HR"}
   ]},
@@ -3959,7 +3959,7 @@
   "signals": [
     {"id": "POLO_DRIVING_MODE_SENS", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Driving mode sensor, hall sensor a"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "210E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_DRIVING_POS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Driving position"}
   ]},
@@ -3967,7 +3967,7 @@
   "signals": [
     {"id": "POLO_ENG_SPEC_TQ_DURING", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine specified torque during transmission intervention"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2114"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_KICK_DOWN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Kick down"}
   ]},
@@ -3987,7 +3987,7 @@
   "signals": [
     {"id": "POLO_ACCEL_DECCELERATION", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Acceleration or deceleration mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2119"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2119"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_TQ_FACTOR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Torque factor"}
   ]},
@@ -3999,7 +3999,7 @@
   "signals": [
     {"id": "POLO_TQ_CONV", "path": "Transmission", "fmt": { "len": 8, "max": 2.55, "div": 100, "unit": "scalar" }, "name": "Torque converter amplification"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2131"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2131"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_TORQUE_CONVERTER_SLIP", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter slip"}
   ]},
@@ -4023,11 +4023,11 @@
   "signals": [
     {"id": "POLO_ROUTE_DATA_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Route data, active"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3800"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3800"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_STOP_SIGNAL_SWITCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop signal switch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3803"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3803"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_BRAKE_P", "path": "Control", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
@@ -4055,7 +4055,7 @@
   "signals": [
     {"id": "POLO_MQB_OUTPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3816"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3816"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_I_GEAR_DQ200", "path": "Transmission", "fmt": { "len": 8, "max": 254, "min": -1, "add": -1, "unit": "scalar" }, "name": "Current gear"}
   ]},
@@ -4163,7 +4163,7 @@
   "signals": [
     {"id": "POLO_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear actuator d"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3871"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3871"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_DQ250_SPECIFIED_IDLE_RPM", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 7000, "unit": "rpm" }, "name": "Specified idle RPM"}
   ]},
@@ -4191,27 +4191,27 @@
   "signals": [
     {"id": "POLO_MQB_TCM_CLUTCH_2_T_PROTECTION_OVERHEAT_PROTECTION_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 temperature protection overheat protection 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3887"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3887"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_ODO_2", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3888"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3888"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_DRIVING_TIME_ECOLOGICAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time ecological"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3889"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3889"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_DRIVING_TIME_SPORTY", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time sporty"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "388A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388A"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_DRIVING_TIME_MANUAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time manual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "388B"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388B"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_DRIVE_CYCLES_COUNTER", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Drive cycles counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "388C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_IGNITION_CYCLES", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Ignition cycles"}
   ]},
@@ -4323,31 +4323,31 @@
   "signals": [
     {"id": "POLO_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation basic characteristics point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "704E"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "cmd": {"22": "704E"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_ATF_T_CALCULATED_7E1", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Transmission fluid temperature, calculated", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "704F"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "704F"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_ATF_MAX", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Automatic transmission fluid temperature, lifetime max"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "7050"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "cmd": {"22": "7050"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_SELECTED_GEAR_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 253, "min": -2, "add": -2, "unit": "celsius" }, "name": "Selected gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "7051"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "cmd": {"22": "7051"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_ATF_T_MODELED_MAX_REACHED_7E1", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Transmission fluid temperature, modeled maximum reached"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "7053"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "cmd": {"22": "7053"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_TORQUE_CONVERTER_TORQUE_LOSS_7E1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "newtonMeters" }, "name": "Torque converter: torque loss"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "7064"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "7064"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_ENG_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "7078"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "7078"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_MQB_TCM_TORQUE_CONVERTER_LOCKUP_CLUTCH_STATUS", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Torque converter lockup clutch status"}
   ]},
@@ -4448,7 +4448,7 @@
   "signals": [
     {"id": "POLO_INPUT_SHFT_SPD_2", "path": "Movement", "fmt": { "len": 16, "max": 7000, "min": -32769, "add": -1, "sign": true, "unit": "rpm" }, "name": "Input shaft speed 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLO_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},

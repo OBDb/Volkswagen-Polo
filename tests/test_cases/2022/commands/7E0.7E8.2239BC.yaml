@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2239BC
 test_cases:
 - expected_values:
+    POLO_MIXTURE_VARIATION_1: 22.61
+  response: 7E8056239BC08D5
+- expected_values:
     POLO_MIXTURE_VARIATION_1: 30.45
   response: 7E8056239BC0BE5
+- expected_values:
+    POLO_MIXTURE_VARIATION_1: 42.07
+  response: 7E8056239BC106F

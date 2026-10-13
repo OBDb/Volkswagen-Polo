@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22203F|fc=1,c=17
+test_cases:
+- expected_values:
+    POLO_TORQUE_LIMITATION_7E1: 105
+  response: 7E90562203F0069

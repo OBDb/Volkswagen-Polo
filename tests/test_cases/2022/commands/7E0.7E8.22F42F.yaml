@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
+    POLO_FLI_INPUT: 53.72549
+  response: 7E80462F42F89
+- expected_values:
     POLO_FLI_INPUT: 55.68627
   response: 7E80462F42F8E

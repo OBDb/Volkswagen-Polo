@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22388B
+test_cases:
+- expected_values:
+    POLO_MQB_TCM_DRIVE_CYCLES_COUNTER: 47364
+  response: 7E90562388B04B9

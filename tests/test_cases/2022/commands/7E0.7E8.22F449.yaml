@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLO_ACCEL_POS_1: 14.5098
   response: 7E80462F44925
+- expected_values:
+    POLO_ACCEL_POS_1: 36.07843
+  response: 7E80462F4495C

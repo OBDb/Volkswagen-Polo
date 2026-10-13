@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.227051|fc=1,c=17
+test_cases:
+- expected_values:
+    POLO_ATF_T_MODELED_MAX_REACHED_7E1: 100
+  response: 7E9046270519B

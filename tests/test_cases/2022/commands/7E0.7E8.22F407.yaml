@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLO_LONG_TERM_FUEL_TRIM_1: 0
   response: 7E80462F40780
+- expected_values:
+    POLO_LONG_TERM_FUEL_TRIM_1: 1.5625
+  response: 7E80462F40782

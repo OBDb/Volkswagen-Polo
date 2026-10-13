@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     POLO_VSS: 0
   response: 7E80462F40D00
+- expected_values:
+    POLO_VSS: 1
+  response: 7E80462F40D01
+- expected_values:
+    POLO_VSS: 4
+  response: 7E80462F40D04
+- expected_values:
+    POLO_VSS: 9
+  response: 7E80462F40D09

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.227053|fc=1,c=17
+test_cases:
+- expected_values:
+    POLO_TORQUE_CONVERTER_TORQUE_LOSS_7E1: 0
+  response: '7E90462705300'

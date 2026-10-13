@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222119
+test_cases:
+- expected_values:
+    POLO_TQ_FACTOR: 1
+  response: '7E90462211901'
