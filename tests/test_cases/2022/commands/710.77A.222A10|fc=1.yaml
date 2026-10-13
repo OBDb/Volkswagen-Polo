@@ -1,5 +1,8 @@
 command_id: 710.77A.222A10|fc=1
 test_cases:
 - expected_values:
+    POLO_BAT_V_AT_REST: 13.5
+  response: 77A04622A102D
+- expected_values:
     POLO_BAT_V_AT_REST: 15
   response: 77A04622A103C

@@ -1,5 +1,13 @@
 command_id: 7E0.7E8.22F40C
 test_cases:
 - expected_values:
+    POLO_RPM_7E0: 829.25
+  response: 7E80562F40C0CF5
+- expected_values:
     POLO_RPM_7E0: 868
   response: 7E80562F40C0D90
+- expected_values:
+    POLO_RPM_7E0: 2575.5
+  response: |-
+    7E80562F40C1227
+    7E80562F40C283E

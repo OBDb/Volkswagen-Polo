@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.2220A1
 test_cases:
 - expected_values:
+    POLO_PQ35_CALCULATED_OIL_T: 55
+  response: 7E8046220A15F
+- expected_values:
     POLO_PQ35_CALCULATED_OIL_T: 64
   response: 7E8046220A168
+- expected_values:
+    POLO_PQ35_CALCULATED_OIL_T: 72
+  response: 7E8046220A170
+- expected_values:
+    POLO_PQ35_CALCULATED_OIL_T: 77
+  response: 7E8046220A175

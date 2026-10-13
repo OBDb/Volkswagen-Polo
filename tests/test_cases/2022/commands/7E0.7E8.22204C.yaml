@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.22204C
 test_cases:
 - expected_values:
+    POLO_FUEL_RATE_VAR_2: 6.85
+  response: 7E80562204C02AD
+- expected_values:
     POLO_FUEL_RATE_VAR_2: 9.16
   response: 7E80562204C0394
+- expected_values:
+    POLO_FUEL_RATE_VAR_2: 14.52
+  response: 7E80562204C05AC
+- expected_values:
+    POLO_FUEL_RATE_VAR_2: 15.11
+  response: 7E80562204C05E7

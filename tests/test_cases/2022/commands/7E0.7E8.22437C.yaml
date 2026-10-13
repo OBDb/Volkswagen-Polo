@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.22437C
 test_cases:
 - expected_values:
+    POLO_ENG_TQ_7E0_7E0: 21
+  response: 7E80562437C00D2
+- expected_values:
     POLO_ENG_TQ_7E0_7E0: 58
   response: 7E80562437C0244
+- expected_values:
+    POLO_ENG_TQ_7E0_7E0: 100.8
+  response: 7E80562437C03F0
+- expected_values:
+    POLO_ENG_TQ_7E0_7E0: 106.3
+  response: 7E80562437C0427

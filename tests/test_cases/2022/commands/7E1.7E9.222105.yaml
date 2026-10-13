@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222105
+test_cases:
+- expected_values:
+    POLO_TQ_TRANSMITTING: 5.6
+  response: '7E9056221050038'

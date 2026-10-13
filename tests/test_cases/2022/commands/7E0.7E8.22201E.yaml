@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.22201E
 test_cases:
 - expected_values:
+    POLO_CAM_ADPT_INT_BANK_1_ACT: 0
+  response: 7E80562201E0000
+- expected_values:
     POLO_CAM_ADPT_INT_BANK_1_ACT: 4.3
   response: 7E80562201E002B
+- expected_values:
+    POLO_CAM_ADPT_INT_BANK_1_ACT: 238.4
+  response: 7E80562201E0950
+- expected_values:
+    POLO_CAM_ADPT_INT_BANK_1_ACT: -2.3
+  response: 7E80562201EFFE9

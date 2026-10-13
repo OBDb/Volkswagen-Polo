@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2210A4
 test_cases:
 - expected_values:
+    POLO_INJ_SPD_INJ_0: 37
+  response: 7E8056210A40094
+- expected_values:
     POLO_INJ_SPD_INJ_0: 37.25
   response: 7E8056210A40095
+- expected_values:
+    POLO_INJ_SPD_INJ_0: 90
+  response: 7E8056210A40168

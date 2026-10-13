@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.222206
 test_cases:
 - expected_values:
+    POLO_PQ35_FUEL_LEVEL_7E0_2206: 28
+  response: 7E8046222061C
+- expected_values:
     POLO_PQ35_FUEL_LEVEL_7E0_2206: 29
   response: 7E8046222061D

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22704E|fc=1,c=17
+test_cases:
+- expected_values:
+    POLO_ATF_T_CALCULATED_7E1: 124
+  response: 7E90462704EAE

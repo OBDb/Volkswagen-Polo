@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     POLO_MEAN_ENG_AIR_MASS: 269
   response: 7E805622032010D
+- expected_values:
+    POLO_MEAN_ENG_AIR_MASS: 270
+  response: 7E805622032010E
+- expected_values:
+    POLO_MEAN_ENG_AIR_MASS: 280
+  response: '7E8056220320118'
+- expected_values:
+    POLO_MEAN_ENG_AIR_MASS: 497
+  response: 7E80562203201F1

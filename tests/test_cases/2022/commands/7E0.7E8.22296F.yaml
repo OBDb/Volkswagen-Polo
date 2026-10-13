@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     POLO_EXH_GAS_T_BEFORE: 993.2
   response: 7E80562296F26CC
+- expected_values:
+    POLO_EXH_GAS_T_BEFORE: 1106.6
+  response: 7E80562296F2B3A
+- expected_values:
+    POLO_EXH_GAS_T_BEFORE: 1164.4
+  response: 7E80562296F2D7C

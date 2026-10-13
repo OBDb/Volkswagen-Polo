@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222104
+test_cases:
+- expected_values:
+    POLO_ATF_T_DUAL_CLU: 92
+  response: 7E9046221045C

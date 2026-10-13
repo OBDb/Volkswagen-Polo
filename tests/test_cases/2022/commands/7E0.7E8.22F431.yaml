@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLO_CLR_DIST: 3345
   response: 7E80562F4310D11
+- expected_values:
+    POLO_CLR_DIST: 3347
+  response: 7E80562F4310D13

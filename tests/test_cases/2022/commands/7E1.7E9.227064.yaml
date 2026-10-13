@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.227064
+test_cases:
+- expected_values:
+    POLO_MQB_TCM_ENG_TORQUE: 65520
+  response: 7E905627064FFF0

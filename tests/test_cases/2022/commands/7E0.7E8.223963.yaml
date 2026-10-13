@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     POLO_KNOCK_SENS_CYL_4_VAR_2: 4.169
   response: '7E8056239631049'
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4_VAR_2: 4.174
+  response: 7E805623963104E
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4_VAR_2: 4.701
+  response: 7E805623963125D

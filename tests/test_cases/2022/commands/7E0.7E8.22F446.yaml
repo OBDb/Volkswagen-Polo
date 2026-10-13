@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     POLO_AAT_7E0_7E0: 16
   response: 7E80462F44638
+- expected_values:
+    POLO_AAT_7E0_7E0: 20
+  response: 7E80462F4463C
+- expected_values:
+    POLO_AAT_7E0_7E0: 23
+  response: 7E80462F4463F

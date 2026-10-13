@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLO_FUEL_HIGH_P_SPEC: 179
   response: 7E80562293B06FE
+- expected_values:
+    POLO_FUEL_HIGH_P_SPEC: 179.2
+  response: 7E80562293B0700

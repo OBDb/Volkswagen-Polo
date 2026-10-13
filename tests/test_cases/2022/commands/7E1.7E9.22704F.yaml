@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22704F
+test_cases:
+- expected_values:
+    POLO_ATF_MAX: 116
+  response: 7E90462704FA6

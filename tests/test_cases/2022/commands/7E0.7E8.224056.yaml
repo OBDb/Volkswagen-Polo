@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     POLO_IDLE_SPD_SPEC_RPM: 860
   response: 7E805624056035C
+- expected_values:
+    POLO_IDLE_SPD_SPEC_RPM: 862
+  response: 7E805624056035E
+- expected_values:
+    POLO_IDLE_SPD_SPEC_RPM: 920
+  response: '7E8056240560398'

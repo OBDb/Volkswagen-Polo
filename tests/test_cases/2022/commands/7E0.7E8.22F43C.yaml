@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
+    POLO_EXH_GAS_T: 313.1
+  response: 7E80562F43C0DCB
+- expected_values:
     POLO_EXH_GAS_T: 429.4
   response: 7E80562F43C1256
+- expected_values:
+    POLO_EXH_GAS_T: 605.2
+  response: 7E80562F43C1934

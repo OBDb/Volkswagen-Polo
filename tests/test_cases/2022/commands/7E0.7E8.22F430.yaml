@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLO_WARM_UPS: 222
   response: 7E80462F430DE
+- expected_values:
+    POLO_WARM_UPS: 224
+  response: 7E80462F430E0

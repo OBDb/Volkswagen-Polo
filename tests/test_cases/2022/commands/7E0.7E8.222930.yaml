@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     POLO_CAM_ADPT_INT_BANK_1_ACTIVATION: 32.76
   response: 7E8056229300CCC
+- expected_values:
+    POLO_CAM_ADPT_INT_BANK_1_ACTIVATION: 66.89
+  response: 7E8056229301A21
+- expected_values:
+    POLO_CAM_ADPT_INT_BANK_1_ACTIVATION: 67.45
+  response: 7E8056229301A59
