@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222966
+test_cases:
+- expected_values:
+    POLO_MIS_VAR_2_1: 0
+  response: 7E8076229660000004E

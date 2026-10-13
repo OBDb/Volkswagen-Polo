@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223962
+test_cases:
+- expected_values:
+    POLO_KNOCK_SENS_CYL_3_VAR_2: 4.096
+  response: '7E8056239621000'

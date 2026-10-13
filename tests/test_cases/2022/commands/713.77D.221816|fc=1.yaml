@@ -1,0 +1,26 @@
+command_id: 713.77D.221816|fc=1
+test_cases:
+- expected_values:
+    POLO_AIR_GAB_VACUUM_SNS: 62
+    POLO_BRAKE_P_SNS: 50.71
+  response: |-
+    77D100C6218160113CF
+    77D210026FFFF003EAA
+- expected_values:
+    POLO_AIR_GAB_VACUUM_SNS: 62
+    POLO_BRAKE_P_SNS: 50.9
+  response: |-
+    77D100C6218160113E2
+    77D210026FFFF003EAA
+- expected_values:
+    POLO_AIR_GAB_VACUUM_SNS: 62
+    POLO_BRAKE_P_SNS: 51.08
+  response: |-
+    77D100C6218160113F4
+    77D210026FFFF003EAA
+- expected_values:
+    POLO_AIR_GAB_VACUUM_SNS: 62
+    POLO_BRAKE_P_SNS: 57.97
+  response: |-
+    77D100C6218160116A5
+    77D21002DFFFF003EAA

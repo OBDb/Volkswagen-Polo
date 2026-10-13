@@ -1,0 +1,14 @@
+command_id: 710.77A.222A07|fc=1
+test_cases:
+- expected_values:
+    POLO_BAT_V_2A07: 14.109
+  response: 77A05622A07277D
+- expected_values:
+    POLO_BAT_V_2A07: 14.129
+  response: 77A05622A072791
+- expected_values:
+    POLO_BAT_V_2A07: 14.181
+  response: 77A05622A0727C5
+- expected_values:
+    POLO_BAT_V_2A07: 14.206
+  response: 77A05622A0727DE
