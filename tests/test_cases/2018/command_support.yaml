@@ -1,5 +1,7 @@
 model_year: 2018
 supported_commands_by_ecu:
+  "710":
+  - 710.77A.222A15|fc=1:POLO_ENERGY_BALANCE_LAST
   "713":
   - 713.77D.221800|fc=1:POLO_FL_VSS_V2
   - 713.77D.221801|fc=1:POLO_FR_VSS_V2
@@ -141,6 +143,8 @@ unsupported_commands_by_ecu:
   - 710.77A.222AB7
   - 710.77A.222AB8
   - 710.77A.222AF7
+  - 710.77A.224F00|fc=1:POLO_GEN_V_ACT
+  - 710.77A.225505|fc=1:POLO_STEER_WHL_T
   "712":
   - 712.77C.221812
   "713":
