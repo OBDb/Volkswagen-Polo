@@ -43,7 +43,7 @@
   "signals": [
     {"id": "POLO_12V_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "12V battery capacity"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_BAT_V_2A07", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Battery voltage"}
   ]},
@@ -51,11 +51,11 @@
   "signals": [
     {"id": "POLO_BAT_CURRENT_FILTERED", "path": "Battery", "fmt": { "len": 24, "max": 13777, "min": -3000, "div": 1000, "add": -3000, "unit": "amps" }, "name": "Battery current filtered"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_BAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge level"}
   ]},
@@ -63,15 +63,15 @@
   "signals": [
     {"id": "POLO_BAT_COND_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 2550, "mul": 10, "unit": "percent" }, "name": "Battery condition for display"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_BAT_INT_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 20, "div": 100, "unit": "unknown" }, "name": "Battery internal resistance"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_USE_BAT_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Usable battery charge"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
@@ -87,7 +87,7 @@
   "signals": [
     {"id": "POLO_ENTIRE_ENERGY", "path": "Tires", "fmt": { "len": 24, "max": 838860, "min": -838860, "div": 10, "sign": true, "unit": "ampereHours" }, "name": "Entire energy throughput"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 6562.5, "div": 10, "add": 9, "unit": "amps" }, "name": "Generator current"}
   ]},
@@ -95,7 +95,7 @@
   "signals": [
     {"id": "POLO_BAT_ACID", "path": "Battery", "fmt": { "len": 8, "max": 2559, "mul": 10, "add": 9, "unit": "percent" }, "name": "Battery acid stratification"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
@@ -179,7 +179,7 @@
   "signals": [
     {"id": "POLO_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "220C"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -191,7 +191,7 @@
   "signals": [
     {"id": "POLO_FUEL_AVG", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel consumption, average"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "22B8"}, "freq": 30,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR", "suggestedMetric": "odometer"}
   ]},
@@ -273,11 +273,11 @@
   "signals": [
     {"id": "POLO_IAT_7E0", "path": "Engine", "fmt": { "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1002"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1002"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_AC_COMP_T", "path": "Climate", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "A/C compressor torque, requested"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
@@ -301,11 +301,11 @@
   "signals": [
     {"id": "POLO_PQ35_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1010"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1017"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_AC_COMP_P", "path": "Engine", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "unknown" }, "name": "Air conditioning compressor pressure"}
   ]},
@@ -313,7 +313,7 @@
   "signals": [
     {"id": "POLO_CLT_FAN_REQ_AC", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.9989, "mul": 12207, "div": 1000000, "sign": true, "unit": "percent" }, "name": "Coolant fan, requested by A/C"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "101A"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "101A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_AC_COMP_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque"}
   ]},
@@ -321,7 +321,7 @@
   "signals": [
     {"id": "POLO_GENERATOR_TORQUE_REQUEST_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Generator torque request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "101C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "101C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ALTERNATOR_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Alternator load"}
   ]},
@@ -333,11 +333,11 @@
   "signals": [
     {"id": "POLO_MQB_AIR_MASS_1", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Air mass meter 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1026"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1026"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MQB_MAF_1_B1_RAW", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Mass airflow sensor 1 bank 1 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1028"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1028"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_DOWNSHIFT_ADAPT_V", "path": "Control", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Downshift point adaptation voltage"}
   ]},
@@ -345,11 +345,11 @@
   "signals": [
     {"id": "POLO_APP_REDUCE_V", "path": "Control", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal release detection threshold voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "102A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ACCEL_PEDAL_SENS_1_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal, sensor 1 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "102B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ACCEL_PEDAL_SENS_2_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal, sensor 2 voltage"}
   ]},
@@ -389,7 +389,7 @@
   "signals": [
     {"id": "POLO_PQ35_CHG_P", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1059"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1059"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ACCEL_PEDAL_TQ_LIM", "path": "Movement", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Accelerator pedal torque limit"}
   ]},
@@ -397,7 +397,7 @@
   "signals": [
     {"id": "POLO_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "105C"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "105C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Brake pressure"}
   ]},
@@ -429,7 +429,7 @@
   "signals": [
     {"id": "POLO_PQ35_LIM_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "107D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "107D"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_TQ_LIM", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Torque limitation"}
   ]},
@@ -449,7 +449,7 @@
   "signals": [
     {"id": "POLO_CAM_ADPT_INT_PHASE", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 35999, "div": 1638350, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation intake, phase position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1097"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1097"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_GEN_POWER", "path": "Engine", "fmt": { "len": 16, "max": 617647.7145, "mul": 9.4247, "unit": "watts" }, "name": "Generator power"}
   ]},
@@ -493,7 +493,7 @@
   "signals": [
     {"id": "POLO_INJ_SPD_INJ_3", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Injection speed injector 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10BE"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10BE"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_REQ_TQ_AMOUNT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque, amount for auxiliary units"}
   ]},
@@ -517,7 +517,7 @@
   "signals": [
     {"id": "POLO_PQ35_INJ_3_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D3"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_INJ_2_RAIL_P_1", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 1"}
   ]},
@@ -545,7 +545,7 @@
   "signals": [
     {"id": "POLO_PQ35_INJ_3_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DE"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_INJ_4_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 4 rail pressure calibration point 3"}
   ]},
@@ -553,7 +553,7 @@
   "signals": [
     {"id": "POLO_PQ35_INJ_2_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_ODO_7E0", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -581,15 +581,15 @@
   "signals": [
     {"id": "POLO_MAX_FILLING_CORR", "path": "Engine", "fmt": { "len": 16, "max": 1.96, "mul": 3, "div": 100000, "unit": "scalar" }, "name": "Maximum filling correction factor from knock control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10EA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EA"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_OPEN_CAM_SHFT_ANG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Open cam shaft angle at quantity control valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10EB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EB"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CRANK_ROT_ANG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Crankshaft rotation angle when closing the quantity control valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10EC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_VLV_TIM_DIFF_ACT_SET", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "mul": 156.25, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Valve timing, the difference between the, actual and the set angle"}
   ]},
@@ -701,11 +701,11 @@
   "signals": [
     {"id": "POLO_AAT_7E0_2", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1124"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1124"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1125"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1125"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_ADPT_INT_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 219.73, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation, intake bank 1, phase position"}
   ]},
@@ -717,7 +717,7 @@
   "signals": [
     {"id": "POLO_KNOCK_SENS_V_CYL_3_7E0", "path": "Battery", "fmt": { "len": 16, "max": 319, "mul": 21333, "div": 4369000, "unit": "volts" }, "name": "Knock sensor voltage, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1128"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1128"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_ADPT_EXH_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 219.73, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation, exhaust bank 1, phase position"}
   ]},
@@ -749,7 +749,7 @@
   "signals": [
     {"id": "POLO_SEG_AD_MMV_ER_3", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1130"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1130"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CLT_FAN_1_CMD_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Coolant fan 1, commanded duty"}
   ]},
@@ -769,11 +769,11 @@
   "signals": [
     {"id": "POLO_SEG_AD_MMV_ER_MID_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_MID, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1135"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1136"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1136"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_HEIGHT_CORR", "path": "Engine", "fmt": { "len": 16, "max": 3.9999, "mul": 0.0000610348, "unit": "scalar" }, "name": "Height correction"}
   ]},
@@ -785,11 +785,11 @@
   "signals": [
     {"id": "POLO_SEG_AD_MMV_ER_H_0", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_H, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1139"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "113A"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_LONG_TERM_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 3.99, "mul": 0.0000610351, "unit": "percent" }, "name": "Long term throttle adaptation to MAF sensor"}
   ]},
@@ -805,7 +805,7 @@
   "signals": [
     {"id": "POLO_SEG_AD_MMV_ER_L_0", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "113F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "litersPerHour" }, "name": "Fuel rate"}
   ]},
@@ -817,19 +817,19 @@
   "signals": [
     {"id": "POLO_SEG_AD_MMV_ER_L_3", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1146"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1146"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MISFIRES_TOTAL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1147"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1147"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MISFIRES_1000REV_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1148"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MISFIRES_1000REV_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1149"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MISFIRES_1000REV_C4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 4"}
   ]},
@@ -841,15 +841,15 @@
   "signals": [
     {"id": "POLO_MIS_PER_1000_REVOLUTIONS_4_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MISFIRES_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1150"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1150"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MISFIRES_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1151"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1151"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_MISFIRES__CYL__4", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
@@ -857,19 +857,19 @@
   "signals": [
     {"id": "POLO_MISFIRES__CYL__2", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1158"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1158"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_MAX_DCHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum discharge current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1159"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1159"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_MAX_CHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum charge current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115B"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115B"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_PARTICLE_FLT_FIELD", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particle filter, field regeneration request status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115C"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_SRV_REGEN_STAT", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service regeneration status"}
   ]},
@@ -877,11 +877,11 @@
   "signals": [
     {"id": "POLO_PQ35_TIME_LAST_REGEN", "fmt": { "len": 32, "max": 0.426, "div": 10066666667, "unit": "minutes" }, "name": "Time since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1160"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1160"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_ODO_HD", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1161"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1161"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ENGINE_RPM_AT_IDLE_REQUIRED_7E0", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Engine RPM at idle required"}
   ]},
@@ -965,11 +965,11 @@
   "signals": [
     {"id": "POLO_INLET_FLAPS_REQ", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Inlet flaps - requested value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11A3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A3"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EA888B_BOOST_P_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Ea888b boost pressure regulator, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11A4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A4"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_FUEL_PMP_CMD_DUTY", "path": "Fuel", "fmt": { "len": 16, "max": 99.99, "mul": 0.0015258743, "unit": "percent" }, "name": "Fuel pump, commanded duty"}
   ]},
@@ -985,11 +985,11 @@
   "signals": [
     {"id": "POLO_INT_MODEL_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Intake model air mass flow filtered value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11AC"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MAF_THROUGH_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow through throttle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11AD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AD"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MAF_CMD", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow, commanded"}
   ]},
@@ -997,15 +997,15 @@
   "signals": [
     {"id": "POLO_ECT_RADIATOR_OUTLET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11B8"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_AIR_LEAKAGE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Air leakage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11B9"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_OIL_P_VLV_SWITCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure valve switch, control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BB"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BB"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_OIL_CRIT", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level, critical"}
   ]},
@@ -1013,13 +1013,17 @@
   "signals": [
     {"id": "POLO_PQ35_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "div": 250, "sign": true, "unit": "millimeters" }, "name": "Engine oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
     {"id": "POLO_EOT_ECM", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature, engine control module"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "to": 2017 }, "dbgfilter": { "to": 2017 },
   "signals": [
     {"id": "POLO_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Oil temperature variant"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "years": [2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "POLO_OIL_T_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Oil temperature variant, raw"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BF"}, "freq": 1,
   "signals": [
@@ -1041,11 +1045,11 @@
   "signals": [
     {"id": "POLO_TCO_1_SYS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_SYS"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CE"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_LOW_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Low fuel pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CF"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CF"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 2559, "mul": 19531, "div": 500000, "unit": "unknown" }, "name": "Brake booster pressure"}
   ]},
@@ -1053,11 +1057,11 @@
   "signals": [
     {"id": "POLO_TCO_1_ST", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_ST"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D1"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D1"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_BRAKE_BOOSTER_RAW_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Brake booster raw pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D2"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_HIGH_P_CTRL_ADPT", "path": "Engine", "fmt": { "len": 16, "max": 16.3835, "min": -16.384, "div": 2000, "sign": true, "unit": "unknown" }, "name": "High pressure control, adaptation"}
   ]},
@@ -1065,11 +1069,11 @@
   "signals": [
     {"id": "POLO_TURBOCHARGER_INLET_P", "path": "Battery", "fmt": { "len": 16, "max": 5119, "mul": 0.078125, "unit": "unknown" }, "name": "Turbocharger inlet pressure corrected value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D5"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_HIGH_FUEL_P", "path": "Fuel", "fmt": { "len": 16, "max": 16.3835, "min": -16.384, "div": 2000, "sign": true, "unit": "unknown" }, "name": "High fuel pressure, regulation error"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D7"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_HIGH_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 32.7675, "div": 2000, "unit": "unknown" }, "name": "High fuel pressure, commanded"}
   ]},
@@ -1077,11 +1081,11 @@
   "signals": [
     {"id": "POLO_INT_MANIFOLD_P", "path": "Engine", "fmt": { "len": 16, "max": 5119, "mul": 0.078125, "unit": "unknown" }, "name": "Intake manifold pressure, corrected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11DC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11DC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_INT_MANIFOLD_P_RAW", "path": "Engine", "fmt": { "len": 8, "max": 19.92, "mul": 781.25, "div": 10000, "unit": "unknown" }, "name": "Intake manifold pressure raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11DD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11DD"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_INT_MANIFOLD_P_CMD", "path": "Engine", "fmt": { "len": 16, "max": 5119, "mul": 0.078125, "unit": "unknown" }, "name": "Intake manifold pressure, commanded"}
   ]},
@@ -1089,7 +1093,7 @@
   "signals": [
     {"id": "POLO_POWERTRAIN_OVERALL", "path": "Transmission", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "scalar" }, "name": "Powertrain overall gear ratio"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11E0"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11E0"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CMD_CRANK_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Commanded crankshaft torque"}
   ]},
@@ -1101,11 +1105,11 @@
   "signals": [
     {"id": "POLO_P_BEFORE_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 2559.96, "mul": 21333, "div": 546125, "unit": "unknown" }, "name": "Pressure before throttle valve - sensor measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F0"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ACT_TURBO_BOOST", "path": "Engine", "fmt": { "len": 16, "max": 2, "unit": "bars" }, "name": "Actual turbo boost"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F1"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_TRANS_IN_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Transmission input shaft speed"}
   ]},
@@ -1125,31 +1129,31 @@
   "signals": [
     {"id": "POLO_PQ35_FIELD_LIM", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Field limit value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11FF"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11FF"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EA888B_BOOST_P_CTRL_0", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1200"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EA888B_BOOST_P_CTRL_1", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1201"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EA888B_BOOST_P_CTRL_2", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1202"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1202"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EA888B_BOOST_P_CTRL_3", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "120E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "120E"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_KNOCK_SENS_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 317, "mul": 0.0048489933, "unit": "volts" }, "name": "Knock sensor, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "120F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "120F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_KNOCK_SENS_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 317, "mul": 0.0048489933, "unit": "volts" }, "name": "Knock sensor, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1210"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1210"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_KNOCK_SENS_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 317, "mul": 0.0048489933, "unit": "volts" }, "name": "Knock sensor, cylinder 4"}
   ]},
@@ -1165,11 +1169,11 @@
   "signals": [
     {"id": "POLO_PQ35_ENVD_CAM_IN_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Environment data camshaft input 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1216"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1216"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_REL_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 1536, "mul": 0.0234403081, "unit": "scalar" }, "name": "Relative load value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1219"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1219"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_BOOST_REGULATION_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.0234384354, "unit": "percent" }, "name": "Boost regulation duty, commanded value"}
   ]},
@@ -1181,7 +1185,7 @@
   "signals": [
     {"id": "POLO_POST_INJ_2_7E0_7E0", "path": "Engine", "fmt": { "len": 16, "max": 13.1, "min": -13.1, "div": 2500, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 2, activation duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "121C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_AIR_FILLING", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 11719, "div": 500000, "unit": "percent" }, "name": "Air filling"}
   ]},
@@ -1197,31 +1201,31 @@
   "signals": [
     {"id": "POLO_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1221"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_ACCEL_PED_1", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1222"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1222"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_TQ_LOSS_ADPT_AC_COMP", "path": "Transmission", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation, A/C compressor + gear engaged"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1223"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1223"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_TQ_LOSS_ADPT_AC_COMP_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation, A/C compressor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1224"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1224"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_TQ_LOSS_ADPT_GEAR", "path": "Transmission", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation, gear engaged"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1225"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1225"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_TQ_LOSS_ADPT_IDLE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation at idle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1230"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1230"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MAX_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Maximum oil level for the service interval"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1231"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1231"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MIN_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Minimum oil level for the service interval"}
   ]},
@@ -1237,23 +1241,23 @@
   "signals": [
     {"id": "POLO_EGT_AFTER_CAT", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "EGT after catalyst, modeled"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "127B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "127B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_ADJ_EXH", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Camshaft adjustment, exhaust, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "127D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "127D"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_VARIABLE_VLV_TIM_INT_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.0030517549, "unit": "percent" }, "name": "Variable valve timing, intake, bank 1, switch on"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1282"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1282"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EXHAUST_GAS_T_BEFORE_CATALYST", "path": "Engine", "fmt": { "len": 16, "max": 1116.77, "min": -193.93, "div": 50, "add": -193.93, "unit": "celsius" }, "name": "Exhaust gas temperature before catalyst"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "128A"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "128A"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "128C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "128C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_AVG_INJ_TIME", "path": "Engine", "fmt": { "len": 32, "max": 1717986, "mul": 4, "div": 10000, "unit": "milliseconds" }, "name": "Avg. injection time"}
   ]},
@@ -1273,7 +1277,7 @@
   "signals": [
     {"id": "POLO_CAT_T_BANK_2", "path": "Engine", "fmt": { "len": 16, "max": 3822, "min": -273, "div": 16, "add": -273.15, "unit": "celsius" }, "name": "Cat. temperature, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "12B0"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "12B0"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ACCELERATION_29BIT_7E0", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "mul": 10, "div": 10000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
   ]},
@@ -1325,15 +1329,15 @@
   "signals": [
     {"id": "POLO_PQ35_CAMS_SPD", "path": "Movement", "fmt": { "len": 16, "max": 9830.1, "min": -9830.4, "mul": 0.3, "sign": true, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "133F"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "133F"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_TQ_REDUCTION_REQ_ESP", "path": "Engine", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque reduction request from ESP"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1340"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1340"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_TQ_INCREASE_REQ_ESP", "path": "Engine", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque increase request from ESP"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1341"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1341"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_CAMS_END", "path": "Engine", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Camshaft end position"}
   ]},
@@ -1345,7 +1349,7 @@
   "signals": [
     {"id": "POLO_PQ35_CHG_LIM_OVER", "path": "Battery", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Charge limit overcharge protection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "136C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "136C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_ADJ_EXH_BANK_1_ACT", "path": "Engine", "fmt": { "len": 16, "max": 262.136, "min": -262.144, "div": 125, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, exhaust bank 1, actual value"}
   ]},
@@ -1353,11 +1357,11 @@
   "signals": [
     {"id": "POLO_CAM_ADJ_EXH_BANK_2_ACT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, exhaust bank 2, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "136E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "136E"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_ADJ_INT_BANK_1_ACT", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "mul": 78.125, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, intake bank 1, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1371"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1371"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_ADJ_EXH_BANK_1_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 262.136, "min": -262.144, "div": 125, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, exhaust bank 1, specified value"}
   ]},
@@ -1365,7 +1369,7 @@
   "signals": [
     {"id": "POLO_CAM_ADJ_EXH_BANK_2_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 262, "min": -262, "div": 125, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, exhaust bank 2, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1373"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1373"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAM_ADJ_INT_BANK_1_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 262.136, "min": -262.144, "div": 125, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, intake bank 1, specified value"}
   ]},
@@ -1397,7 +1401,7 @@
   "signals": [
     {"id": "POLO_EGT_LAMBDA_SENS_1", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "EGT at lambda sensor 1, modeled"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A0"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A0"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ECT_MODELED", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Coolant temperature modeled value"}
   ]},
@@ -1477,7 +1481,7 @@
   "signals": [
     {"id": "POLO_IGA_CYL_KNK_1", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F4"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F4"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_IGA_CYL_KNK_2", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 2"}
   ]},
@@ -1549,7 +1553,7 @@
   "signals": [
     {"id": "POLO_MOTOR_TQ", "path": "Engine", "fmt": { "len": 16, "max": 10922.333, "min": -10922.666, "div": 3, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1480"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1480"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_MIS_CNT_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires counter:, cylinder 3"}
   ]},
@@ -1589,7 +1593,7 @@
   "signals": [
     {"id": "POLO_CTR_MIS_DC_MMV_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "CTR_MIS_DC_MMV_CYL_SAE, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1490"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1490"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_BRAKE_BOOSTER_ACT", "path": "Control", "fmt": { "len": 16, "max": 1279, "min": -1279, "mul": 390.62, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Brake booster, actual vacuum"}
   ]},
@@ -1601,7 +1605,7 @@
   "signals": [
     {"id": "POLO_RATED_DRIVE_TQ", "path": "Engine", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Rated drive torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14B4"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14B4"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_FUEL_LEVEL_INPUT_V1", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level input, v1", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -1613,7 +1617,7 @@
   "signals": [
     {"id": "POLO_PQ35_PRE_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Pilot injection 2 start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CB"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
@@ -1637,7 +1641,7 @@
   "signals": [
     {"id": "POLO_PQ35_PRE_INJ_1_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pilot injection 1 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14D1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14D1"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_PRE_INJ_2_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pilot injection 2 duration"}
   ]},
@@ -1665,7 +1669,7 @@
   "signals": [
     {"id": "POLO_ENG_OIL_LEVEL_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Engine oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1507"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1507"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CAT_CONVERTER_OXYGEN_STORAGE_CAPACITY_MEASURED_7E0", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "mul": 1000, "div": 10000, "unit": "unknown" }, "name": "Cat. converter oxygen storage capacity measured"}
   ]},
@@ -1673,15 +1677,15 @@
   "signals": [
     {"id": "POLO_AMBIENT_AIR_P", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "unknown" }, "name": "Ambient air pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1511"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1511"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ECT_MAX", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, maximum value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1512"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1512"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ECT_MIN", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, minimum value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1513"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1513"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ECT_LINEAR", "path": "Engine", "fmt": { "len": 16, "max": 143, "min": -48, "mul": 29.297, "div": 10000, "add": -48, "unit": "celsius" }, "name": "Coolant temperature linear"}
   ]},
@@ -1709,11 +1713,11 @@
   "signals": [
     {"id": "POLO_SPARK_EFFICIENCY_DEV_PART_MAX", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Spark efficiency deviation at part load, maximum"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "159F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "159F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_HIGH_FUEL_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 32.7675, "div": 2000, "unit": "unknown" }, "name": "High fuel pressure, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15A4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15A4"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_OIL_LEVEL_STATIC", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Oil level, static measured"}
   ]},
@@ -1721,11 +1725,11 @@
   "signals": [
     {"id": "POLO_PQ35_SELECTED_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Selected gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15B7"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15B7"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ENG_OIL_SUMP_T", "path": "Engine", "fmt": { "len": 16, "max": 11336.3, "min": -460, "mul": 0.18, "add": -460, "unit": "fahrenheit" }, "name": "Engine oil sump temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15B9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15B9"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_OIL_LEVEL_AVG", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Oil level, average dynamic value"}
   ]},
@@ -1733,11 +1737,11 @@
   "signals": [
     {"id": "POLO_OIL_P_SENS_PISTON", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure sensor-piston cooling nozzle switch, status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15C0"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15C0"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_IAT_INT_MANIFOLD_RAW", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Intake air temperature in intake manifold raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15C1"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15C1"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_IAT_BEFORE_THROTTLE", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 75, "div": 100, "add": -48, "unit": "celsius" }, "name": "Intake air temperature before throttle valve, raw value"}
   ]},
@@ -1757,11 +1761,11 @@
   "signals": [
     {"id": "POLO_RESULT_CRANKCASE_VENTILATION_TEST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Result of crankcase ventilation test, fail"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15CD"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15CD"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_ECT_RADIATOR_OUTLET_V_1", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet v.1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15CF"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15CF"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_LONGITUDINAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration, raw value"}
   ]},
@@ -1769,11 +1773,11 @@
   "signals": [
     {"id": "POLO_YAW_ACCEL_RAW", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Yaw acceleration, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15D1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D1"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_LATERAL_ACCEL_RAW", "path": "Movement", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "15D4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D4"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_LAMBDA_OUTPUT", "path": "Engine", "fmt": { "len": 16, "max": 1.99, "mul": 199997, "div": 6553500000, "unit": "scalar" }, "name": "Lambda output value"}
   ]},
@@ -1793,7 +1797,7 @@
   "signals": [
     {"id": "POLO_PQ35_INTERCOOLER_AIR_OUTPUT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Intercooler air output temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "162D"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
@@ -1805,7 +1809,7 @@
   "signals": [
     {"id": "POLO_EOT_MEAS", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature measured value", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1633"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1633"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_LONGITUDINAL_ACCEL_7E0", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"}
   ]},
@@ -1817,7 +1821,7 @@
   "signals": [
     {"id": "POLO_PQ35_POST_INJ_1_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 1: quantity specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1644"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1644"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_LATERAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"}
   ]},
@@ -1861,15 +1865,15 @@
   "signals": [
     {"id": "POLO_THROTTLE_REGULATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 128, "unit": "percent" }, "name": "Throttle regulator nominal value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16EC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CHG_P_REGULATOR_LO", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure regulator, lower threshold adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16ED"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16ED"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_CHG_P_REGULATOR_HI", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure regulator, upper threshold adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16EE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EE"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_BOOST_P_ACTUATOR_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399, "mul": 0.0122068184, "sign": true, "unit": "percent" }, "name": "Boost pressure actuator, commanded duty"}
   ]},
@@ -1897,15 +1901,15 @@
   "signals": [
     {"id": "POLO_TOT_MASS_GASOLINE", "path": "Engine", "fmt": { "len": 16, "max": 1398, "mul": 0.021333, "unit": "unknown" }, "name": "Total mass of gasoline and ethyl alcohol in oil"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1715"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1715"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EARLY_IGN_CNT_TOT_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1716"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1716"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EARLY_IGN_CNT_TOT_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1717"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1717"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_EARLY_IGN_CNT_TOT_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 4"}
   ]},
@@ -1913,15 +1917,15 @@
   "signals": [
     {"id": "POLO_EARLY_IGN_CNT_TOT_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171A"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_BASIC_CORR_FACTOR_1", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7.999, "div": 65535, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 1, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171B"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171B"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_BASIC_CORR_FACTOR_3", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7.999, "div": 65535, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 3, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_BASIC_CORR_FACTOR_4", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7.999, "div": 65535, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 4, filtered"}
   ]},
@@ -1929,15 +1933,15 @@
   "signals": [
     {"id": "POLO_BASIC_CORR_FACTOR_2", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7.999, "div": 65535, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 2, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1722"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1722"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EARLY_IGN_CNT_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1723"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1723"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EARLY_IGN_CNT_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1724"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1724"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EARLY_IGN_CNT_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 4"}
   ]},
@@ -1949,7 +1953,7 @@
   "signals": [
     {"id": "POLO_PQ35_INTAKE_CAMSHAFT_SIGNAL_EDGE_POS_ADAPTED_VALUE_EDGE_1", "path": "Engine", "fmt": { "len": 16, "max": 4063.9375, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted value edge 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1740"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1740"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_INT_CAM_ADPT_SENS", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Intake camshaft, adaptation sensor tolerance"}
   ]},
@@ -1957,15 +1961,15 @@
   "signals": [
     {"id": "POLO_INTEGRATED_MASS_AIR_SINCE", "path": "Engine", "fmt": { "len": 16, "max": 23301.6246, "mul": 8889, "div": 25000, "unit": "unknown" }, "name": "Integrated mass of air since the first engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "174A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "174A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EXH_CAM_ADPT_BIAS", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Exhaust camshaft, adaptation bias"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "174B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "174B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_INT_CAM_ADPT_BIAS", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Intake camshaft, adaptation bias"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1755"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1755"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_EXH_CAM_ADPT_SENS", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Exhaust camshaft, adaptation sensor tolerance"}
   ]},
@@ -1977,7 +1981,7 @@
   "signals": [
     {"id": "POLO_LONG_TERM_FUEL_TRIM_PORT", "path": "Fuel", "fmt": { "len": 16, "max": 1.9999, "mul": 199997, "div": 6553500000, "unit": "scalar" }, "name": "Long term fuel trim port injection at load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "177D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "177D"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_OIL_P_ACT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure, actual value"}
   ]},
@@ -2871,7 +2875,7 @@
   "signals": [
     {"id": "POLO_PISTON_COOLING_JETS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Piston-cooling jets, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "430E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "430E"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "POLO_NUM_INJECTIONS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of injections"}
   ]},
@@ -3087,27 +3091,27 @@
   "signals": [
     {"id": "POLO_ENG_OIL_LEVEL", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine oil level current value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_SHORT_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Short term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_RPM_7E0", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
@@ -3115,39 +3119,39 @@
   "signals": [
     {"id": "POLO_PQ35_HIGH_P_EGR_CLOSING_VAR_2", "path": "Engine.EGR", "fmt": { "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High pressure exhaust gas recirculation closing, variant 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since diagnostic trouble codes cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_BARO", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "POLO_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_AAT_7E0_7E0", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_ACCEL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "POLO_ACCEL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator position 2"}
   ]},

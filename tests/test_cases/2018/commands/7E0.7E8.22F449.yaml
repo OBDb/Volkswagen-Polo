@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F449
+test_cases:
+- expected_values:
+    POLO_ACCEL_POS_1: 14.5098
+  response: 7E80462F44925
+- expected_values:
+    POLO_ACCEL_POS_1: 25.4902
+  response: 7E80462F44941
+- expected_values:
+    POLO_ACCEL_POS_1: 29.80392
+  response: 7E80462F4494C
+- expected_values:
+    POLO_ACCEL_POS_1: 40
+  response: 7E80462F44966
+- expected_values:
+    POLO_ACCEL_POS_1: 52.15686
+  response: 7E80462F44985
+- expected_values:
+    POLO_ACCEL_POS_1: 61.96078
+  response: 7E80462F4499E

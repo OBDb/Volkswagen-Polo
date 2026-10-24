@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22171A
+test_cases:
+- expected_values:
+    POLO_BASIC_CORR_FACTOR_1: 0.99721
+  response: 7E80562171A1FEA
+- expected_values:
+    POLO_BASIC_CORR_FACTOR_1: 0.99733
+  response: 7E80562171A1FEB
+- expected_values:
+    POLO_BASIC_CORR_FACTOR_1: 0.99745
+  response: 7E80562171A1FEC
+- expected_values:
+    POLO_BASIC_CORR_FACTOR_1: 0.99757
+  response: 7E80562171A1FED
+- expected_values:
+    POLO_BASIC_CORR_FACTOR_1: 0.99769
+  response: 7E80562171A1FEE
+- expected_values:
+    POLO_BASIC_CORR_FACTOR_1: 0.99782
+  response: 7E80562171A1FEF

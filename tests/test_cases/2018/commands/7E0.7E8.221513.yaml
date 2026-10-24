@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221513
+test_cases:
+- expected_values:
+    POLO_ECT_LINEAR: 32.1273
+  response: 7E8056215136AD6
+- expected_values:
+    POLO_ECT_LINEAR: 36.71813
+  response: 7E80562151370F5
+- expected_values:
+    POLO_ECT_LINEAR: 47.25334
+  response: 7E8056215137F01
+- expected_values:
+    POLO_ECT_LINEAR: 53.97407
+  response: 7E80562151387F7
+- expected_values:
+    POLO_ECT_LINEAR: 57.33443
+  response: 7E8056215138C72
+- expected_values:
+    POLO_ECT_LINEAR: 59.30319
+  response: 7E8056215138F12
+- expected_values:
+    POLO_ECT_LINEAR: 63.84423
+  response: '7E8056215139520'
+- expected_values:
+    POLO_ECT_LINEAR: 67.14014
+  response: '7E8056215139985'

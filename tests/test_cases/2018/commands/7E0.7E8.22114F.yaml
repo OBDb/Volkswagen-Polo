@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22114F
+test_cases:
+- expected_values:
+    POLO_MISFIRES_C1: 37161
+  response: 7E80562114F9129
+- expected_values:
+    POLO_MISFIRES_C1: 37162
+  response: 7E80562114F912A
+- expected_values:
+    POLO_MISFIRES_C1: 37176
+  response: 7E80562114F9138
+- expected_values:
+    POLO_MISFIRES_C1: 37177
+  response: 7E80562114F9139

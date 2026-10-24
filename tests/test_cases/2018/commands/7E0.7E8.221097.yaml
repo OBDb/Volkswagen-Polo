@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221097
+test_cases:
+- expected_values:
+    POLO_GEN_POWER: 442.9609
+  response: 7E805621097002F
+- expected_values:
+    POLO_GEN_POWER: 499.5091
+  response: '7E8056210970035'
+- expected_values:
+    POLO_GEN_POWER: 546.6326
+  response: 7E805621097003A
+- expected_values:
+    POLO_GEN_POWER: 697.4278
+  response: 7E805621097004A
+- expected_values:
+    POLO_GEN_POWER: 744.5513
+  response: 7E805621097004F

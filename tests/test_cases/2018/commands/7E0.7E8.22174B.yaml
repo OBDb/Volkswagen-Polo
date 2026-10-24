@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22174B
+test_cases:
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -9.40444
+  response: 7E80562174BFE54
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -9.16274
+  response: 7E80562174BFE5F
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -8.5475
+  response: 7E80562174BFE7B
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -8.48158
+  response: 7E80562174BFE7E
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -8.34974
+  response: 7E80562174BFE84
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -8.17396
+  response: 7E80562174BFE8C
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -7.7345
+  response: 7E80562174BFEA0
+- expected_values:
+    POLO_INT_CAM_ADPT_BIAS: -7.11925
+  response: 7E80562174BFEBC

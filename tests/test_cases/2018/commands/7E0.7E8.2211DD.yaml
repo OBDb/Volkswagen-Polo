@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2211DD
+test_cases:
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 253.20312
+  response: 7E8056211DD0CA9
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 347.34375
+  response: 7E8056211DD115E
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 430.15625
+  response: 7E8056211DD1582
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 445.70312
+  response: 7E8056211DD1649
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 616.48438
+  response: 7E8056211DD1ED3
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 686.71875
+  response: 7E8056211DD2256
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 791.17188
+  response: 7E8056211DD278F
+- expected_values:
+    POLO_INT_MANIFOLD_P_CMD: 1511.32812
+  response: 7E8056211DD4B91

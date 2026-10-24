@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    POLO_CLR_DIST: 35894
+  response: 7E80562F4318C36
+- expected_values:
+    POLO_CLR_DIST: 35895
+  response: 7E80562F4318C37
+- expected_values:
+    POLO_CLR_DIST: 35896
+  response: 7E80562F4318C38
+- expected_values:
+    POLO_CLR_DIST: 35952
+  response: 7E80562F4318C70
+- expected_values:
+    POLO_CLR_DIST: 35953
+  response: 7E80562F4318C71

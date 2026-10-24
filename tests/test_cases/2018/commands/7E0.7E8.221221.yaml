@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221221
+test_cases:
+- expected_values:
+    POLO_PQ35_ACCEL_PED_1: 10
+  response: '7E8056212210032'
+- expected_values:
+    POLO_PQ35_ACCEL_PED_1: 10.2
+  response: '7E8056212210033'
+- expected_values:
+    POLO_PQ35_ACCEL_PED_1: -1
+  response: 7E805621221FFFB

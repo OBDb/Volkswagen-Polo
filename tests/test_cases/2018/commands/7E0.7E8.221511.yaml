@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221511
+test_cases:
+- expected_values:
+    POLO_ECT_MAX: 27.75
+  response: '7E80462151165'
+- expected_values:
+    POLO_ECT_MAX: 38.25
+  response: '7E80462151173'
+- expected_values:
+    POLO_ECT_MAX: 48
+  response: '7E80462151180'
+- expected_values:
+    POLO_ECT_MAX: 57
+  response: 7E8046215118C
+- expected_values:
+    POLO_ECT_MAX: 57.75
+  response: 7E8046215118D
+- expected_values:
+    POLO_ECT_MAX: 60.75
+  response: '7E80462151191'
+- expected_values:
+    POLO_ECT_MAX: 63.75
+  response: '7E80462151195'
+- expected_values:
+    POLO_ECT_MAX: 69.75
+  response: 7E8046215119D

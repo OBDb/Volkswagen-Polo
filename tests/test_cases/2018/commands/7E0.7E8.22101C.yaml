@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22101C
+test_cases:
+- expected_values:
+    POLO_ALTERNATOR_LOAD: 19.35
+  response: 7E80562101C078F
+- expected_values:
+    POLO_ALTERNATOR_LOAD: 25.79
+  response: 7E80562101C0A13
+- expected_values:
+    POLO_ALTERNATOR_LOAD: 32.23
+  response: 7E80562101C0C97
+- expected_values:
+    POLO_ALTERNATOR_LOAD: 35.46
+  response: 7E80562101C0DDA

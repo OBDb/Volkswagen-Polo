@@ -1,0 +1,8 @@
+command_id: 710.77A.222A1C|fc=1
+test_cases:
+- expected_values:
+    POLO_GEN_CURRENT: 39.8
+  response: 77A05622A1C0134
+- expected_values:
+    POLO_GEN_CURRENT: 46.4
+  response: 77A05622A1C0176

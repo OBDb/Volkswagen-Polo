@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221644
+test_cases:
+- expected_values:
+    POLO_LATERAL_ACCEL: 0.01
+  response: '7E8056216440001'
+- expected_values:
+    POLO_LATERAL_ACCEL: 0.02
+  response: '7E8056216440002'
+- expected_values:
+    POLO_LATERAL_ACCEL: 0.16
+  response: '7E8056216440010'
+- expected_values:
+    POLO_LATERAL_ACCEL: -0.22
+  response: 7E805621644FFEA
+- expected_values:
+    POLO_LATERAL_ACCEL: -0.05
+  response: 7E805621644FFFB
+- expected_values:
+    POLO_LATERAL_ACCEL: -0.02
+  response: 7E805621644FFFE
+- expected_values:
+    POLO_LATERAL_ACCEL: -0.01
+  response: 7E805621644FFFF

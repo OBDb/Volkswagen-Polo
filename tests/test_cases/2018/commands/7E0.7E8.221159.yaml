@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221159
+test_cases:
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 213.2
+  response: '7E8056211590854'
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 213.3
+  response: '7E8056211590855'
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 215.2
+  response: '7E8056211590868'
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 215.3
+  response: '7E8056211590869'
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 490.8
+  response: 7E805621159132C
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 491.8
+  response: '7E8056211591336'
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 492
+  response: '7E8056211591338'
+- expected_values:
+    POLO_MAX_CHA_CUR_2: 492.5
+  response: 7E805621159133D

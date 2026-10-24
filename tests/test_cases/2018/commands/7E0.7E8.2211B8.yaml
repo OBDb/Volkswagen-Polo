@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211B8
+test_cases:
+- expected_values:
+    POLO_AIR_LEAKAGE: 0.2
+  response: 7E8056211B80002
+- expected_values:
+    POLO_AIR_LEAKAGE: 0.4
+  response: 7E8056211B80004
+- expected_values:
+    POLO_AIR_LEAKAGE: 0.6
+  response: 7E8056211B80006
+- expected_values:
+    POLO_AIR_LEAKAGE: 0.7
+  response: 7E8056211B80007
+- expected_values:
+    POLO_AIR_LEAKAGE: 0.9
+  response: 7E8056211B80009

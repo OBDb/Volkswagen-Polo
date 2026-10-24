@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221371
+test_cases:
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_SPEC: 7.824
+  response: 7E80562137103D2
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_SPEC: -25.6
+  response: 7E805621371F380
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_SPEC: -10.24
+  response: 7E805621371FB00
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_SPEC: -7.752
+  response: 7E805621371FC37

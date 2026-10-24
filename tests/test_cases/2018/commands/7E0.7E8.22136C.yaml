@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22136C
+test_cases:
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -25.624
+  response: 7E80562136CF37D
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -25.536
+  response: 7E80562136CF388
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -25.224
+  response: 7E80562136CF3AF
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -24.84
+  response: 7E80562136CF3DF
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -16.896
+  response: 7E80562136CF7C0
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -9.784
+  response: 7E80562136CFB39
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -7.896
+  response: 7E80562136CFC25
+- expected_values:
+    POLO_CAM_ADJ_EXH_BANK_1_ACT: -3.488
+  response: 7E80562136CFE4C

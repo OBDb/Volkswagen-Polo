@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221150
+test_cases:
+- expected_values:
+    POLO_MISFIRES_C3: 29137
+  response: 7E80562115071D1
+- expected_values:
+    POLO_MISFIRES_C3: 29149
+  response: 7E80562115071DD
+- expected_values:
+    POLO_MISFIRES_C3: 29150
+  response: 7E80562115071DE

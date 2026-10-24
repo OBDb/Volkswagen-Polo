@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22121C
+test_cases:
+- expected_values:
+    POLO_AIR_FILLING: 19.19572
+  response: 7E80562121C0333
+- expected_values:
+    POLO_AIR_FILLING: 19.82855
+  response: 7E80562121C034E
+- expected_values:
+    POLO_AIR_FILLING: 22.50048
+  response: 7E80562121C03C0
+- expected_values:
+    POLO_AIR_FILLING: 26.22712
+  response: 7E80562121C045F
+- expected_values:
+    POLO_AIR_FILLING: 29.39125
+  response: 7E80562121C04E6
+- expected_values:
+    POLO_AIR_FILLING: 38.41488
+  response: 7E80562121C0667
+- expected_values:
+    POLO_AIR_FILLING: 46.50099
+  response: 7E80562121C07C0
+- expected_values:
+    POLO_AIR_FILLING: 100
+  response: 7E80562121C1357

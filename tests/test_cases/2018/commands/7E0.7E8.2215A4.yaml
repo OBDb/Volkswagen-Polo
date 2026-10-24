@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2215A4
+test_cases:
+- expected_values:
+    POLO_OIL_LEVEL_STATIC: 42.932
+  response: 7E8056215A429ED

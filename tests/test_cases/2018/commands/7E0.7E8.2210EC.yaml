@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2210EC
+test_cases:
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: 0
+  response: 7E8056210EC0000
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: 2.96875
+  response: 7E8056210EC00BE
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: 4.65625
+  response: 7E8056210EC012A
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: -11.57812
+  response: 7E8056210ECFD1B
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: -5.53125
+  response: 7E8056210ECFE9E
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: -0.34375
+  response: 7E8056210ECFFEA
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: -0.09375
+  response: 7E8056210ECFFFA
+- expected_values:
+    POLO_VLV_TIM_DIFF_ACT_SET: -0.04688
+  response: 7E8056210ECFFFD

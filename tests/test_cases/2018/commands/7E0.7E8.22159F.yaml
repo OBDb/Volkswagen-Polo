@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22159F
+test_cases:
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 16.704
+  response: 7E80562159F8280
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 16.861
+  response: 7E80562159F83BA
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 17.877
+  response: 7E80562159F8BAA
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 18.133
+  response: 7E80562159F8DAA
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 19.325
+  response: 7E80562159F96FA
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 20.753
+  response: 7E80562159FA222
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 20.8275
+  response: 7E80562159FA2B7
+- expected_values:
+    POLO_HIGH_FUEL_P_ACT: 25.349
+  response: 7E80562159FC60A

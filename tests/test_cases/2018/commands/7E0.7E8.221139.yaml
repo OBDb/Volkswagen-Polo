@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 146.26
+  response: '7E8056211393922'
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 159.85
+  response: 7E8056211393E71
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 160.61
+  response: 7E8056211393EBD
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 163.85
+  response: '7E8056211394001'
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 165.86
+  response: 7E80562113940CA
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 188.08
+  response: '7E8056211394978'
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 197.31
+  response: 7E8056211394D13
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 202.07
+  response: 7E8056211394EEF

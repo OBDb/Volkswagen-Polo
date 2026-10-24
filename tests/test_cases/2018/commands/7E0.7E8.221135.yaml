@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221135
+test_cases:
+- expected_values:
+    POLO_COOLANT_T: 87
+  response: 7E8056211350E11

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215B9
+test_cases:
+- expected_values:
+    POLO_OIL_LEVEL_AVG: 20.864
+  response: 7E8056215B91460
+- expected_values:
+    POLO_OIL_LEVEL_AVG: 21.416
+  response: 7E8056215B914EA
+- expected_values:
+    POLO_OIL_LEVEL_AVG: 21.42
+  response: 7E8056215B914EB

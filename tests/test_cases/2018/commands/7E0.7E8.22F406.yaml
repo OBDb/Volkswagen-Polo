@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F406
+test_cases:
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: -12.5
+  response: 7E80462F40670
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: -7.8125
+  response: 7E80462F40676
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: -7.03125
+  response: 7E80462F40677
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: -6.25
+  response: 7E80462F40678
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: -3.125
+  response: 7E80462F4067C
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: -2.34375
+  response: 7E80462F4067D
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: -0.78125
+  response: 7E80462F4067F
+- expected_values:
+    POLO_SHORT_TERM_FUEL_TRIM_1: 0
+  response: 7E80462F40680

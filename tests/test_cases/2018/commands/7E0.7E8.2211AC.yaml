@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2211AC
+test_cases:
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 6.4
+  response: 7E8056211AC0040
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 8.3
+  response: 7E8056211AC0053
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 10.2
+  response: 7E8056211AC0066
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 14.7
+  response: 7E8056211AC0093
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 18.5
+  response: 7E8056211AC00B9
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 27.5
+  response: 7E8056211AC0113
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 73.8
+  response: 7E8056211AC02E2
+- expected_values:
+    POLO_MAF_THROUGH_THROTTLE: 151.7
+  response: 7E8056211AC05ED

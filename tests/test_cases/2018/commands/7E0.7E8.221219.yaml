@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221219
+test_cases:
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 86.98003
+  response: 7E8056212190E7F
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 87.40193
+  response: 7E8056212190E91
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 100
+  response: '7E8056212191404'
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 100
+  response: '7E8056212191958'
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 100
+  response: 7E8056212191A15
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 100
+  response: 7E8056212191A44
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 100
+  response: 7E8056212191C27
+- expected_values:
+    POLO_BOOST_REGULATION_CMD: 100
+  response: 7E8056212191CDC

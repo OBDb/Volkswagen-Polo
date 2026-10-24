@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211FF
+test_cases:
+- expected_values:
+    POLO_EA888B_BOOST_P_CTRL_0: -84.3
+  response: 7E8046211FFE2
+- expected_values:
+    POLO_EA888B_BOOST_P_CTRL_0: -81.49
+  response: 7E8046211FFE3

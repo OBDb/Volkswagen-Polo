@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221010
+test_cases:
+- expected_values:
+    POLO_ENG_TQ: 0
+  response: '7E8056210100000'
+- expected_values:
+    POLO_ENG_TQ: 17.7
+  response: 7E80562101000B1
+- expected_values:
+    POLO_ENG_TQ: 20
+  response: 7E80562101000C8
+- expected_values:
+    POLO_ENG_TQ: 25.5
+  response: 7E80562101000FF
+- expected_values:
+    POLO_ENG_TQ: 26.7
+  response: 7E805621010010B
+- expected_values:
+    POLO_ENG_TQ: 35.5
+  response: '7E8056210100163'
+- expected_values:
+    POLO_ENG_TQ: 56.6
+  response: '7E8056210100236'
