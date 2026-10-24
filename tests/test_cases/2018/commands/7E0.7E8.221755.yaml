@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221755
+test_cases:
+- expected_values:
+    POLO_EXH_CAM_ADPT_SENS: 3.31792
+  response: '7E8056217550097'

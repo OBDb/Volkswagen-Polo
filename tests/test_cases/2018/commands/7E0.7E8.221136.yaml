@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221136
+test_cases:
+- expected_values:
+    POLO_HEIGHT_CORR: 0.99035
+  response: 7E8056211363F62
+- expected_values:
+    POLO_HEIGHT_CORR: 0.99041
+  response: 7E8056211363F63
+- expected_values:
+    POLO_HEIGHT_CORR: 0.99066
+  response: 7E8056211363F67
+- expected_values:
+    POLO_HEIGHT_CORR: 0.9909
+  response: 7E8056211363F6B
+- expected_values:
+    POLO_HEIGHT_CORR: 0.99334
+  response: 7E8056211363F93
+- expected_values:
+    POLO_HEIGHT_CORR: 0.9934
+  response: 7E8056211363F94
+- expected_values:
+    POLO_HEIGHT_CORR: 0.99444
+  response: 7E8056211363FA5

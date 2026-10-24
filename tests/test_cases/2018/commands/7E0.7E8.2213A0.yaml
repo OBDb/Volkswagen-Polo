@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2213A0
+test_cases:
+- expected_values:
+    POLO_ECT_MODELED: 21.75
+  response: 7E8046213A05D
+- expected_values:
+    POLO_ECT_MODELED: 30.75
+  response: 7E8046213A069
+- expected_values:
+    POLO_ECT_MODELED: 34.5
+  response: 7E8046213A06E
+- expected_values:
+    POLO_ECT_MODELED: 38.25
+  response: 7E8046213A073
+- expected_values:
+    POLO_ECT_MODELED: 39
+  response: 7E8046213A074
+- expected_values:
+    POLO_ECT_MODELED: 41.25
+  response: 7E8046213A077
+- expected_values:
+    POLO_ECT_MODELED: 42.75
+  response: 7E8046213A079

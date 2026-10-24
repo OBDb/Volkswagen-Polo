@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2215D4
+test_cases:
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 0.88855
+  response: 7E8056215D471BC
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 0.91266
+  response: 7E8056215D474D2
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 0.94315
+  response: 7E8056215D478B9
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 0.94772
+  response: 7E8056215D4794F
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 0.96533
+  response: 7E8056215D47B90
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 0.96951
+  response: 7E8056215D47C19
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 0.99936
+  response: 7E8056215D47FEB
+- expected_values:
+    POLO_LAMBDA_OUTPUT: 1
+  response: 7E8056215D48000

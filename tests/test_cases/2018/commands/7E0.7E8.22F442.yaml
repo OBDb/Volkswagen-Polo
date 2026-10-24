@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F442
+test_cases:
+- expected_values:
+    POLO_VPWR: 13.169
+  response: 7E80562F4423371
+- expected_values:
+    POLO_VPWR: 13.216
+  response: 7E80562F44233A0
+- expected_values:
+    POLO_VPWR: 13.264
+  response: 7E80562F44233D0
+- expected_values:
+    POLO_VPWR: 14.347
+  response: 7E80562F442380B
+- expected_values:
+    POLO_VPWR: 14.418
+  response: 7E80562F4423852

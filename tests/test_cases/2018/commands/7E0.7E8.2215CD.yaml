@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2215CD
+test_cases:
+- expected_values:
+    POLO_ECT_RADIATOR_OUTLET_V_1: 12
+  response: 7E8056215CD0B23
+- expected_values:
+    POLO_ECT_RADIATOR_OUTLET_V_1: 12.1
+  response: 7E8056215CD0B24
+- expected_values:
+    POLO_ECT_RADIATOR_OUTLET_V_1: 12.2
+  response: 7E8056215CD0B25
+- expected_values:
+    POLO_ECT_RADIATOR_OUTLET_V_1: 14
+  response: 7E8056215CD0B37
+- expected_values:
+    POLO_ECT_RADIATOR_OUTLET_V_1: 14.1
+  response: 7E8056215CD0B38
+- expected_values:
+    POLO_ECT_RADIATOR_OUTLET_V_1: 14.2
+  response: 7E8056215CD0B39

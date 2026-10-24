@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2212B0|fc=1,c=17
+test_cases:
+- expected_values:
+    POLO_ACCELERATION_29BIT_7E0: 0.269
+  response: 7E8056212B0010D
+- expected_values:
+    POLO_ACCELERATION_29BIT_7E0: -1.716
+  response: 7E8056212B0F94C

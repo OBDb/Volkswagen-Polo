@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221002
+test_cases:
+- expected_values:
+    POLO_AC_COMP_T: 0
+  response: '7E8056210020000'
+- expected_values:
+    POLO_AC_COMP_T: 1.7
+  response: '7E8056210020011'
+- expected_values:
+    POLO_AC_COMP_T: 2
+  response: '7E8056210020014'
+- expected_values:
+    POLO_AC_COMP_T: 3.9
+  response: '7E8056210020027'
+- expected_values:
+    POLO_AC_COMP_T: 6.2
+  response: 7E805621002003E

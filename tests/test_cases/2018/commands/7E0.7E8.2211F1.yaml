@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2211F1
+test_cases:
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 1551.5
+  response: 7E8056211F10C1F
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 1626
+  response: 7E8056211F10CB4
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 2653.5
+  response: 7E8056211F114BB
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 2879.5
+  response: 7E8056211F1167F
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 4479.5
+  response: 7E8056211F122FF
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 4800
+  response: 7E8056211F12580
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 7090.5
+  response: 7E8056211F13765
+- expected_values:
+    POLO_PQ35_TRANS_IN_SPD: 7851
+  response: 7E8056211F13D56

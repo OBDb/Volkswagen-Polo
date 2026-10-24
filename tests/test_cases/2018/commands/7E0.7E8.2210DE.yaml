@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210DE
+test_cases:
+- expected_values:
+    POLO_PQ35_INJ_4_RAIL_P_3: 0
+  response: 7E8056210DE0000
+- expected_values:
+    POLO_PQ35_INJ_4_RAIL_P_3: 0.024
+  response: 7E8056210DE01E0
+- expected_values:
+    POLO_PQ35_INJ_4_RAIL_P_3: 0.0502
+  response: 7E8056210DE03EC
+- expected_values:
+    POLO_PQ35_INJ_4_RAIL_P_3: -0.0104
+  response: 7E8056210DEFF30
+- expected_values:
+    POLO_PQ35_INJ_4_RAIL_P_3: -0.00385
+  response: 7E8056210DEFFB3

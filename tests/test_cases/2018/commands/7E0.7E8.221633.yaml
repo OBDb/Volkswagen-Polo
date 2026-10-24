@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221633
+test_cases:
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: 0.029
+  response: 7E805621633001D
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: 0.236
+  response: 7E80562163300EC
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: 0.361
+  response: '7E8056216330169'
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: -0.582
+  response: 7E805621633FDBA
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: -0.454
+  response: 7E805621633FE3A
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: -0.374
+  response: 7E805621633FE8A
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: -0.167
+  response: 7E805621633FF59
+- expected_values:
+    POLO_LONGITUDINAL_ACCEL_7E0: -0.164
+  response: 7E805621633FF5C

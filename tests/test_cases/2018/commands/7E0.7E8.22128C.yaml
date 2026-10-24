@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22128C
+test_cases:
+- expected_values:
+    POLO_AVG_INJ_TIME: 0.1536
+  response: 7E80762128C00000180
+- expected_values:
+    POLO_AVG_INJ_TIME: 0.2064
+  response: 7E80762128C00000204
+- expected_values:
+    POLO_AVG_INJ_TIME: 0.2744
+  response: 7E80762128C000002AE
+- expected_values:
+    POLO_AVG_INJ_TIME: 0.2972
+  response: 7E80762128C000002E7
+- expected_values:
+    POLO_AVG_INJ_TIME: 0.3628
+  response: 7E80762128C0000038B
+- expected_values:
+    POLO_AVG_INJ_TIME: 0.596
+  response: 7E80762128C000005D2
+- expected_values:
+    POLO_AVG_INJ_TIME: 0.968
+  response: 7E80762128C00000974
+- expected_values:
+    POLO_AVG_INJ_TIME: 1.0628
+  response: 7E80762128C00000A61

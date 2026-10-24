@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2215C1
+test_cases:
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 14.25
+  response: 7E8046215C153
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 15.75
+  response: 7E8046215C155
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 16.5
+  response: 7E8046215C156
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 21
+  response: 7E8046215C15C
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 21.75
+  response: 7E8046215C15D
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 23.25
+  response: 7E8046215C15F
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 24.75
+  response: 7E8046215C161
+- expected_values:
+    POLO_IAT_BEFORE_THROTTLE: 26.25
+  response: 7E8046215C163

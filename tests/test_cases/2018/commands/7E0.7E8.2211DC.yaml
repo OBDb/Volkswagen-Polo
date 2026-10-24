@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 1.25
+  response: 7E8056211DC10E3
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 1.64062
+  response: 7E8056211DC1523
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 2.5
+  response: 7E8056211DC2088
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 2.57812
+  response: 7E8056211DC21F5
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 2.65625
+  response: 7E8056211DC22C2
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 2.65625
+  response: 7E8056211DC22EA
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 2.8125
+  response: 7E8056211DC24F0
+- expected_values:
+    POLO_INT_MANIFOLD_P_RAW: 2.96875
+  response: 7E8056211DC2601

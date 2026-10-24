@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2216ED
+test_cases:
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 468.8
+  response: 7E8056216ED0928
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 469.6
+  response: 7E8056216ED092C
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 471
+  response: 7E8056216ED0933
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 474
+  response: 7E8056216ED0942
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 474.6
+  response: 7E8056216ED0945
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 479.4
+  response: 7E8056216ED095D
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 482
+  response: 7E8056216ED096A
+- expected_values:
+    POLO_CHG_P_REGULATOR_HI: 492.8
+  response: 7E8056216ED09A0

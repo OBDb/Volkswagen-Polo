@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221282
+test_cases:
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 331.53
+  response: 7E80562128266A1
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 358.49
+  response: 7E8056212826BE5
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 387.13
+  response: 7E805621282717D
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 394.35
+  response: 7E80562128272E6
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 396.53
+  response: '7E8056212827353'
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 425.67
+  response: '7E8056212827904'
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 438.27
+  response: 7E8056212827B7A
+- expected_values:
+    POLO_EXHAUST_GAS_T_BEFORE_CATALYST: 461.01
+  response: 7E8056212827FEB

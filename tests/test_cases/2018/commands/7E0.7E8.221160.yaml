@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221160
+test_cases:
+- expected_values:
+    POLO_ODO_HD: 114181.482
+  response: 7E80762116006CE456A
+- expected_values:
+    POLO_ODO_HD: 114182.464
+  response: 7E80762116006CE4940
+- expected_values:
+    POLO_ODO_HD: 114183.05
+  response: 7E80762116006CE4B8A
+- expected_values:
+    POLO_ODO_HD: 114183.73
+  response: 7E80762116006CE4E32
+- expected_values:
+    POLO_ODO_HD: 114239.169
+  response: 7E80762116006CF26C1
+- expected_values:
+    POLO_ODO_HD: 114239.683
+  response: 7E80762116006CF28C3
+- expected_values:
+    POLO_ODO_HD: 114240.366
+  response: 7E80762116006CF2B6E
+- expected_values:
+    POLO_ODO_HD: 114240.862
+  response: 7E80762116006CF2D5E

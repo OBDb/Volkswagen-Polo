@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22102B
+test_cases:
+- expected_values:
+    POLO_ACCEL_PEDAL_SENS_2_V: 364.8
+  response: 7E80562102B0720
+- expected_values:
+    POLO_ACCEL_PEDAL_SENS_2_V: 366.2
+  response: 7E80562102B0727
+- expected_values:
+    POLO_ACCEL_PEDAL_SENS_2_V: 446.6
+  response: 7E80562102B08B9
+- expected_values:
+    POLO_ACCEL_PEDAL_SENS_2_V: 743.4
+  response: 7E80562102B0E85
+- expected_values:
+    POLO_ACCEL_PEDAL_SENS_2_V: 925.4
+  response: 7E80562102B1213
+- expected_values:
+    POLO_ACCEL_PEDAL_SENS_2_V: 959.6
+  response: 7E80562102B12BE

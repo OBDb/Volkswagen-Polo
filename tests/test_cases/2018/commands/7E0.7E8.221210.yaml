@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221210
+test_cases:
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 1.44015
+  response: '7E8056212100129'
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 1.44985
+  response: 7E805621210012B
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 1.69715
+  response: 7E805621210015E
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 1.71169
+  response: '7E8056212100161'
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 1.79898
+  response: '7E8056212100173'
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 2.00748
+  response: 7E805621210019E
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 2.72029
+  response: '7E8056212100231'
+- expected_values:
+    POLO_KNOCK_SENS_CYL_4: 2.91424
+  response: '7E8056212100259'

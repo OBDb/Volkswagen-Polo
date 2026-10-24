@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22177D
+test_cases:
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 214.7
+  response: 7E80562177D0863
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 228.5
+  response: 7E80562177D08ED
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 231.2
+  response: 7E80562177D0908
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 231.7
+  response: 7E80562177D090D
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 248.7
+  response: 7E80562177D09B7
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 261.7
+  response: 7E80562177D0A39
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 296.3
+  response: 7E80562177D0B93
+- expected_values:
+    POLO_OIL_P_ACT_7E0: 352.4
+  response: 7E80562177D0DC4

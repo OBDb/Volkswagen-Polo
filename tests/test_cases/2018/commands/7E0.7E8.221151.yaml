@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221151
+test_cases:
+- expected_values:
+    POLO_MISFIRES__CYL__4: 34815
+  response: 7E80562115187FF
+- expected_values:
+    POLO_MISFIRES__CYL__4: 34816
+  response: '7E8056211518800'
+- expected_values:
+    POLO_MISFIRES__CYL__4: 34820
+  response: '7E8056211518804'
+- expected_values:
+    POLO_MISFIRES__CYL__4: 34821
+  response: '7E8056211518805'
