@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211BE|f=2018-
+test_cases:
+- expected_values:
+    POLO_OIL_T_2_RAW: -1
+  response: 7E8056211BEFFFF
