@@ -1017,13 +1017,9 @@
   "signals": [
     {"id": "POLO_EOT_ECM", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature, engine control module"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "to": 2017 }, "dbgfilter": { "to": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020], "from": 2022 },
   "signals": [
-    {"id": "POLO_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Oil temperature variant"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "years": [2019, 2020], "from": 2022 },
-  "signals": [
-    {"id": "POLO_OIL_T_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Oil temperature variant, raw"}
+    {"id": "POLO_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Oil temperature variant"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BF"}, "freq": 1,
   "signals": [
@@ -1799,7 +1795,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "POLO_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Fuel temperature"}
+    {"id": "POLO_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1631"}, "freq": 1,
   "signals": [
