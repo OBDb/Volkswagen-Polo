@@ -4,23 +4,14 @@ test_cases:
     POLO_ODO_HD: 114181.482
   response: 7E80762116006CE456A
 - expected_values:
-    POLO_ODO_HD: 114182.464
-  response: 7E80762116006CE4940
-- expected_values:
-    POLO_ODO_HD: 114183.05
-  response: 7E80762116006CE4B8A
-- expected_values:
-    POLO_ODO_HD: 114183.73
-  response: 7E80762116006CE4E32
-- expected_values:
     POLO_ODO_HD: 114239.169
   response: 7E80762116006CF26C1
 - expected_values:
-    POLO_ODO_HD: 114239.683
-  response: 7E80762116006CF28C3
+    POLO_ODO_HD: 116297.999
+  response: 7E80762116006EE910F
 - expected_values:
-    POLO_ODO_HD: 114240.366
-  response: 7E80762116006CF2B6E
+    POLO_ODO_HD: 116299.003
+  response: 7E80762116006EE94FB
 - expected_values:
-    POLO_ODO_HD: 114240.862
-  response: 7E80762116006CF2D5E
+    POLO_ODO_HD: 116299.914
+  response: 7E80762116006EE988A

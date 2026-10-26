@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLO_MIN_OIL_LEVEL: 16.412
   response: '7E8056212311007'
+- expected_values:
+    POLO_MIN_OIL_LEVEL: 19.592
+  response: '7E8056212311322'

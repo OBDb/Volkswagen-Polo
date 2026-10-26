@@ -4,5 +4,8 @@ test_cases:
     POLO_USE_BAT_CHG: 22
   response: 77A04622A0F16
 - expected_values:
+    POLO_USE_BAT_CHG: 23
+  response: 77A04622A0F17
+- expected_values:
     POLO_USE_BAT_CHG: 24
   response: 77A04622A0F18

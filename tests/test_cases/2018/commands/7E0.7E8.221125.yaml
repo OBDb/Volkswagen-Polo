@@ -7,6 +7,9 @@ test_cases:
     POLO_CAM_ADPT_INT_BANK_1: 0.52735
   response: '7E8056211250018'
 - expected_values:
+    POLO_CAM_ADPT_INT_BANK_1: 0.63722
+  response: 7E805621125001D
+- expected_values:
     POLO_CAM_ADPT_INT_BANK_1: 0.68116
   response: 7E805621125001F
 - expected_values:

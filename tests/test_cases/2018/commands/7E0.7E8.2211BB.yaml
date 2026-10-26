@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2211BB
 test_cases:
 - expected_values:
+    POLO_OIL_CRIT: 3.816
+  response: 7E8056211BB2544
+- expected_values:
     POLO_OIL_CRIT: 3.9
   response: 7E8056211BB2616

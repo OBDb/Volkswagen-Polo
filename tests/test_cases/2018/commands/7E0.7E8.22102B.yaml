@@ -10,6 +10,9 @@ test_cases:
     POLO_ACCEL_PEDAL_SENS_2_V: 446.6
   response: 7E80562102B08B9
 - expected_values:
+    POLO_ACCEL_PEDAL_SENS_2_V: 596.8
+  response: 7E80562102B0BA8
+- expected_values:
     POLO_ACCEL_PEDAL_SENS_2_V: 743.4
   response: 7E80562102B0E85
 - expected_values:

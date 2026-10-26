@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22105C|din=03
 test_cases:
 - expected_values:
+    POLO_BRAKE_P: 12
+  response: 7E80562105C0078
+- expected_values:
     POLO_BRAKE_P: 13.8
   response: 7E80562105C008A
 - expected_values:

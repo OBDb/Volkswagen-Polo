@@ -4,23 +4,11 @@ test_cases:
     POLO_FUEL_PMP_CMD_DUTY: 48.12302
   response: 7E8056211A47B32
 - expected_values:
-    POLO_FUEL_PMP_CMD_DUTY: 49.13468
-  response: 7E8056211A47DC9
-- expected_values:
-    POLO_FUEL_PMP_CMD_DUTY: 49.7435
-  response: 7E8056211A47F58
-- expected_values:
     POLO_FUEL_PMP_CMD_DUTY: 50.4393
   response: 7E8056211A48120
 - expected_values:
     POLO_FUEL_PMP_CMD_DUTY: 52.68844
   response: 7E8056211A486E2
 - expected_values:
-    POLO_FUEL_PMP_CMD_DUTY: 53.03939
-  response: 7E8056211A487C8
-- expected_values:
-    POLO_FUEL_PMP_CMD_DUTY: 53.37508
-  response: 7E8056211A488A4
-- expected_values:
-    POLO_FUEL_PMP_CMD_DUTY: 53.62685
-  response: 7E8056211A48949
+    POLO_FUEL_PMP_CMD_DUTY: 56.57637
+  response: 7E8056211A490D6

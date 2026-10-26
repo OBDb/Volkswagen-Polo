@@ -1,23 +1,11 @@
 command_id: 7E0.7E8.2210EB
 test_cases:
 - expected_values:
-    POLO_CRANK_ROT_ANG: 61.3
-  response: 7E8056210EB0265
+    POLO_CRANK_ROT_ANG: 59.6
+  response: 7E8056210EB0254
 - expected_values:
-    POLO_CRANK_ROT_ANG: 63.3
-  response: 7E8056210EB0279
+    POLO_CRANK_ROT_ANG: 63.9
+  response: 7E8056210EB027F
 - expected_values:
-    POLO_CRANK_ROT_ANG: 64.8
-  response: 7E8056210EB0288
-- expected_values:
-    POLO_CRANK_ROT_ANG: 65.5
-  response: 7E8056210EB028F
-- expected_values:
-    POLO_CRANK_ROT_ANG: 66.9
-  response: 7E8056210EB029D
-- expected_values:
-    POLO_CRANK_ROT_ANG: 67.3
-  response: 7E8056210EB02A1
-- expected_values:
-    POLO_CRANK_ROT_ANG: 70.9
-  response: 7E8056210EB02C5
+    POLO_CRANK_ROT_ANG: 72
+  response: 7E8056210EB02D0

@@ -4,23 +4,11 @@ test_cases:
     POLO_CAM_ADJ_EXH: 6.2501
   response: 7E80562127B1000
 - expected_values:
-    POLO_CAM_ADJ_EXH: 29.61776
-  response: 7E80562127B4BD2
-- expected_values:
-    POLO_CAM_ADJ_EXH: 30.19608
-  response: 7E80562127B4D4D
-- expected_values:
-    POLO_CAM_ADJ_EXH: 30.99565
-  response: 7E80562127B4F59
-- expected_values:
     POLO_CAM_ADJ_EXH: 32.47883
   response: 7E80562127B5325
 - expected_values:
-    POLO_CAM_ADJ_EXH: 34.17716
-  response: 7E80562127B577E
-- expected_values:
-    POLO_CAM_ADJ_EXH: 35.76867
-  response: 7E80562127B5B91
+    POLO_CAM_ADJ_EXH: 38.66636
+  response: 7E80562127B62FC
 - expected_values:
     POLO_CAM_ADJ_EXH: 38.6862
   response: 7E80562127B6309

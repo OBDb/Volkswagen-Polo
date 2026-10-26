@@ -4,20 +4,8 @@ test_cases:
     POLO_OPEN_CAM_SHFT_ANG: 28.5
   response: 7E8056210EA011D
 - expected_values:
-    POLO_OPEN_CAM_SHFT_ANG: 38.9
-  response: 7E8056210EA0185
-- expected_values:
-    POLO_OPEN_CAM_SHFT_ANG: 44.4
-  response: 7E8056210EA01BC
-- expected_values:
-    POLO_OPEN_CAM_SHFT_ANG: 45.7
-  response: 7E8056210EA01C9
-- expected_values:
-    POLO_OPEN_CAM_SHFT_ANG: 55.3
-  response: 7E8056210EA0229
-- expected_values:
-    POLO_OPEN_CAM_SHFT_ANG: 59.7
-  response: 7E8056210EA0255
+    POLO_OPEN_CAM_SHFT_ANG: 53.1
+  response: 7E8056210EA0213
 - expected_values:
     POLO_OPEN_CAM_SHFT_ANG: 73.2
   response: 7E8056210EA02DC

@@ -1,23 +1,17 @@
 command_id: 7E0.7E8.221373
 test_cases:
 - expected_values:
-    POLO_CAM_ADJ_INT_BANK_1_SPEC: 17.264
-  response: 7E805621373086E
+    POLO_CAM_ADJ_INT_BANK_1_SPEC: 0.8
+  response: '7E8056213730064'
 - expected_values:
-    POLO_CAM_ADJ_INT_BANK_1_SPEC: 22.288
-  response: 7E8056213730AE2
+    POLO_CAM_ADJ_INT_BANK_1_SPEC: 12.064
+  response: 7E80562137305E4
 - expected_values:
     POLO_CAM_ADJ_INT_BANK_1_SPEC: 22.536
   response: 7E8056213730B01
 - expected_values:
-    POLO_CAM_ADJ_INT_BANK_1_SPEC: 22.624
-  response: 7E8056213730B0C
-- expected_values:
     POLO_CAM_ADJ_INT_BANK_1_SPEC: 22.784
   response: 7E8056213730B20
-- expected_values:
-    POLO_CAM_ADJ_INT_BANK_1_SPEC: 23.008
-  response: 7E8056213730B3C
 - expected_values:
     POLO_CAM_ADJ_INT_BANK_1_SPEC: -17.248
   response: 7E805621373F794

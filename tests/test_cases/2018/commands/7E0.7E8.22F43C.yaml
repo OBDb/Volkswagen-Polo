@@ -10,17 +10,5 @@ test_cases:
     POLO_EXH_GAS_T: 446.4
   response: 7E80562F43C1300
 - expected_values:
-    POLO_EXH_GAS_T: 544.6
-  response: 7E80562F43C16D6
-- expected_values:
-    POLO_EXH_GAS_T: 556.2
-  response: 7E80562F43C174A
-- expected_values:
     POLO_EXH_GAS_T: 574.6
   response: 7E80562F43C1802
-- expected_values:
-    POLO_EXH_GAS_T: 574.9
-  response: 7E80562F43C1805
-- expected_values:
-    POLO_EXH_GAS_T: 580.7
-  response: 7E80562F43C183F

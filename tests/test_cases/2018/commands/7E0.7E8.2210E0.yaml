@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     POLO_ODO_7E0: 114726
   response: 7E8076210E00001C026
+- expected_values:
+    POLO_ODO_7E0: 116789
+  response: 7E8076210E00001C835
+- expected_values:
+    POLO_ODO_7E0: 116790
+  response: 7E8076210E00001C836
+- expected_values:
+    POLO_ODO_7E0: 116791
+  response: 7E8076210E00001C837

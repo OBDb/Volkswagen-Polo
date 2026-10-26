@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     POLO_GEN_CURRENT: 46.4
   response: 77A05622A1C0176
+- expected_values:
+    POLO_GEN_CURRENT: 47.7
+  response: 77A05622A1C0183
+- expected_values:
+    POLO_GEN_CURRENT: 51.1
+  response: 77A05622A1C01A5

@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221512
 test_cases:
 - expected_values:
+    POLO_ECT_MIN: 9
+  response: 7E8046215124C
+- expected_values:
     POLO_ECT_MIN: 15.75
   response: '7E80462151255'
 - expected_values:

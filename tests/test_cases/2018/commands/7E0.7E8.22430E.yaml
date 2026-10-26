@@ -1,26 +1,14 @@
 command_id: 7E0.7E8.22430E
 test_cases:
 - expected_values:
-    POLO_NUM_INJECTIONS: 1744
-  response: 7E80562430E06D0
+    POLO_NUM_INJECTIONS: 1715
+  response: 7E80562430E06B3
 - expected_values:
     POLO_NUM_INJECTIONS: 2775
   response: 7E80562430E0AD7
 - expected_values:
-    POLO_NUM_INJECTIONS: 6701
-  response: 7E80562430E1A2D
-- expected_values:
     POLO_NUM_INJECTIONS: 7426
   response: 7E80562430E1D02
-- expected_values:
-    POLO_NUM_INJECTIONS: 8748
-  response: 7E80562430E222C
-- expected_values:
-    POLO_NUM_INJECTIONS: 9127
-  response: 7E80562430E23A7
-- expected_values:
-    POLO_NUM_INJECTIONS: 10424
-  response: 7E80562430E28B8
 - expected_values:
     POLO_NUM_INJECTIONS: 10950
   response: 7E80562430E2AC6

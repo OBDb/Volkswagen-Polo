@@ -4,6 +4,12 @@ test_cases:
     POLO_ENG_TQ: 0
   response: '7E8056210100000'
 - expected_values:
+    POLO_ENG_TQ: 3.6
+  response: '7E8056210100024'
+- expected_values:
+    POLO_ENG_TQ: 15.2
+  response: '7E8056210100098'
+- expected_values:
     POLO_ENG_TQ: 17.7
   response: 7E80562101000B1
 - expected_values:
@@ -21,3 +27,6 @@ test_cases:
 - expected_values:
     POLO_ENG_TQ: 56.6
   response: '7E8056210100236'
+- expected_values:
+    POLO_ENG_TQ: 95.7
+  response: 7E80562101003BD

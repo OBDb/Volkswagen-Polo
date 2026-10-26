@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.2215D1
 test_cases:
 - expected_values:
+    POLO_LATERAL_ACCEL_RAW: 0.01
+  response: 7E8056215D10001
+- expected_values:
+    POLO_LATERAL_ACCEL_RAW: 0.04
+  response: 7E8056215D10004
+- expected_values:
     POLO_LATERAL_ACCEL_RAW: 0.06
   response: 7E8056215D10006
 - expected_values:

@@ -7,11 +7,17 @@ test_cases:
     POLO_LATERAL_ACCEL: 0.02
   response: '7E8056216440002'
 - expected_values:
+    POLO_LATERAL_ACCEL: 0.04
+  response: '7E8056216440004'
+- expected_values:
     POLO_LATERAL_ACCEL: 0.16
   response: '7E8056216440010'
 - expected_values:
     POLO_LATERAL_ACCEL: -0.22
   response: 7E805621644FFEA
+- expected_values:
+    POLO_LATERAL_ACCEL: -0.08
+  response: 7E805621644FFF8
 - expected_values:
     POLO_LATERAL_ACCEL: -0.05
   response: 7E805621644FFFB

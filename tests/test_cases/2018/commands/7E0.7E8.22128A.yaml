@@ -1,6 +1,18 @@
 command_id: 7E0.7E8.22128A
 test_cases:
 - expected_values:
+    POLO_FUEL_T: 6.75
+  response: 7E80462128A49
+- expected_values:
+    POLO_FUEL_T: 7.5
+  response: 7E80462128A4A
+- expected_values:
+    POLO_FUEL_T: 8.25
+  response: 7E80462128A4B
+- expected_values:
+    POLO_FUEL_T: 9
+  response: 7E80462128A4C
+- expected_values:
     POLO_FUEL_T: 12.75
   response: 7E80462128A51
 - expected_values:

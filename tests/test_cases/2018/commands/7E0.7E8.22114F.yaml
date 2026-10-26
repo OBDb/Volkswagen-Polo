@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     POLO_MISFIRES_C1: 37177
   response: 7E80562114F9139
+- expected_values:
+    POLO_MISFIRES_C1: 37328
+  response: 7E80562114F91D0

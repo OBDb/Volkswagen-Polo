@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     POLO_MISFIRES_C3: 29150
   response: 7E80562115071DE
+- expected_values:
+    POLO_MISFIRES_C3: 29284
+  response: '7E8056211507264'
+- expected_values:
+    POLO_MISFIRES_C3: 29285
+  response: '7E8056211507265'

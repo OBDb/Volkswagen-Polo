@@ -4,23 +4,8 @@ test_cases:
     POLO_RPM_7E0: 960.5
   response: 7E80562F40C0F02
 - expected_values:
-    POLO_RPM_7E0: 1171
-  response: 7E80562F40C124C
-- expected_values:
-    POLO_RPM_7E0: 1204.5
-  response: 7E80562F40C12D2
-- expected_values:
-    POLO_RPM_7E0: 1447
-  response: 7E80562F40C169C
-- expected_values:
     POLO_RPM_7E0: 1534.5
   response: 7E80562F40C17FA
 - expected_values:
-    POLO_RPM_7E0: 1730.5
-  response: 7E80562F40C1B0A
-- expected_values:
-    POLO_RPM_7E0: 1735
-  response: 7E80562F40C1B1C
-- expected_values:
-    POLO_RPM_7E0: 1941
-  response: 7E80562F40C1E54
+    POLO_RPM_7E0: 2558.5
+  response: 7E80562F40C27FA

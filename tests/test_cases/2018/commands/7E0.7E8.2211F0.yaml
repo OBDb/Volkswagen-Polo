@@ -2,19 +2,13 @@ command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
     POLO_ACT_TURBO_BOOST: 2
+  response: 7E8056211F031E3
+- expected_values:
+    POLO_ACT_TURBO_BOOST: 2
   response: 7E8056211F03210
 - expected_values:
     POLO_ACT_TURBO_BOOST: 2
-  response: 7E8056211F0323F
-- expected_values:
-    POLO_ACT_TURBO_BOOST: 2
-  response: 7E8056211F03242
-- expected_values:
-    POLO_ACT_TURBO_BOOST: 2
-  response: 7E8056211F03262
-- expected_values:
-    POLO_ACT_TURBO_BOOST: 2
-  response: 7E8056211F0328C
+  response: 7E8056211F032FD
 - expected_values:
     POLO_ACT_TURBO_BOOST: 2
   response: 7E8056211F045CD

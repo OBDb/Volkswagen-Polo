@@ -1,26 +1,14 @@
 command_id: 7E0.7E8.221341
 test_cases:
 - expected_values:
-    POLO_PQ35_CAMS_END: 46.6
-  response: 7E80562134100E9
-- expected_values:
-    POLO_PQ35_CAMS_END: -325.4
-  response: 7E805621341F9A5
+    POLO_PQ35_CAMS_END: 33.4
+  response: 7E80562134100A7
 - expected_values:
     POLO_PQ35_CAMS_END: -255.6
   response: 7E805621341FB02
 - expected_values:
-    POLO_PQ35_CAMS_END: -217.6
-  response: 7E805621341FBC0
-- expected_values:
-    POLO_PQ35_CAMS_END: -216.6
-  response: 7E805621341FBC5
-- expected_values:
-    POLO_PQ35_CAMS_END: -173.2
-  response: 7E805621341FC9E
-- expected_values:
-    POLO_PQ35_CAMS_END: -85.8
-  response: 7E805621341FE53
+    POLO_PQ35_CAMS_END: -52.2
+  response: 7E805621341FEFB
 - expected_values:
     POLO_PQ35_CAMS_END: -19
   response: 7E805621341FFA1

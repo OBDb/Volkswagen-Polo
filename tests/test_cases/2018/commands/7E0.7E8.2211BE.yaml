@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     POLO_PQ35_OIL_T_2: null
   response: 7E8056211BE0005
+- expected_values:
+    POLO_PQ35_OIL_T_2: null
+  response: 7E8056211BE000A

@@ -1,26 +1,14 @@
 command_id: 7E0.7E8.22113A
 test_cases:
 - expected_values:
+    POLO_LONG_TERM_THROTTLE: 0.99475
+  response: 7E80562113A3FAA
+- expected_values:
+    POLO_LONG_TERM_THROTTLE: 0.99725
+  response: 7E80562113A3FD3
+- expected_values:
     POLO_LONG_TERM_THROTTLE: 1.00458
   response: 7E80562113A404B
 - expected_values:
     POLO_LONG_TERM_THROTTLE: 1.0047
   response: 7E80562113A404D
-- expected_values:
-    POLO_LONG_TERM_THROTTLE: 1.00488
-  response: 7E80562113A4050
-- expected_values:
-    POLO_LONG_TERM_THROTTLE: 1.00525
-  response: 7E80562113A4056
-- expected_values:
-    POLO_LONG_TERM_THROTTLE: 1.00635
-  response: 7E80562113A4068
-- expected_values:
-    POLO_LONG_TERM_THROTTLE: 1.00684
-  response: 7E80562113A4070
-- expected_values:
-    POLO_LONG_TERM_THROTTLE: 1.00702
-  response: 7E80562113A4073
-- expected_values:
-    POLO_LONG_TERM_THROTTLE: 1.00726
-  response: 7E80562113A4077

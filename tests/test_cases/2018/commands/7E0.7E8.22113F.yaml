@@ -4,23 +4,8 @@ test_cases:
     POLO_FUEL_RATE: 0
   response: 7E80562113F0000
 - expected_values:
-    POLO_FUEL_RATE: 0.77
-  response: 7E80562113F004D
-- expected_values:
-    POLO_FUEL_RATE: 1.83
-  response: 7E80562113F00B7
-- expected_values:
-    POLO_FUEL_RATE: 1.93
-  response: 7E80562113F00C1
-- expected_values:
-    POLO_FUEL_RATE: 4.12
-  response: 7E80562113F019C
-- expected_values:
-    POLO_FUEL_RATE: 4.71
-  response: 7E80562113F01D7
+    POLO_FUEL_RATE: 2.52
+  response: 7E80562113F00FC
 - expected_values:
     POLO_FUEL_RATE: 10.87
   response: 7E80562113F043F
-- expected_values:
-    POLO_FUEL_RATE: 11.22
-  response: 7E80562113F0462

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     POLO_MAX_DCHA_CUR_2: -3.9
   response: 7E805621158FFD9
+- expected_values:
+    POLO_MAX_DCHA_CUR_2: -3.8
+  response: 7E805621158FFDA

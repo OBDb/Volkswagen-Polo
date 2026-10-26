@@ -7,6 +7,9 @@ test_cases:
     POLO_ACCEL_PEDAL_TQ_LIM: 15.6
   response: 7E805621059009C
 - expected_values:
+    POLO_ACCEL_PEDAL_TQ_LIM: 33.1
+  response: 7E805621059014B
+- expected_values:
     POLO_ACCEL_PEDAL_TQ_LIM: 33.9
   response: '7E8056210590153'
 - expected_values:

@@ -4,6 +4,12 @@ test_cases:
     POLO_BAT_V_2A07: 12.699
   response: 77A05622A0721FB
 - expected_values:
+    POLO_BAT_V_2A07: 13.349
+  response: 77A05622A072485
+- expected_values:
+    POLO_BAT_V_2A07: 13.379
+  response: 77A05622A0724A3
+- expected_values:
     POLO_BAT_V_2A07: 13.403
   response: 77A05622A0724BB
 - expected_values:
