@@ -10,8 +10,14 @@ test_cases:
     POLO_ACCEL_POS_1: 29.80392
   response: 7E80462F4494C
 - expected_values:
+    POLO_ACCEL_POS_1: 37.64706
+  response: 7E80462F44960
+- expected_values:
     POLO_ACCEL_POS_1: 40
   response: 7E80462F44966
+- expected_values:
+    POLO_ACCEL_POS_1: 44.70588
+  response: 7E80462F44972
 - expected_values:
     POLO_ACCEL_POS_1: 52.15686
   response: 7E80462F44985

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLO_ODO_MILEAGE_HR: 114725.374
   response: 77E076222B806D691FE
+- expected_values:
+    POLO_ODO_MILEAGE_HR: 116789.413
+  response: 77E076222B806F610A5

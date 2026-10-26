@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     POLO_MISFIRES__CYL__4: 34821
   response: '7E8056211518805'
+- expected_values:
+    POLO_MISFIRES__CYL__4: 34959
+  response: 7E805621151888F
+- expected_values:
+    POLO_MISFIRES__CYL__4: 34960
+  response: '7E8056211518890'

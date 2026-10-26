@@ -10,6 +10,12 @@ test_cases:
     POLO_PQ35_INJ_4_RAIL_P_3: 0.0502
   response: 7E8056210DE03EC
 - expected_values:
+    POLO_PQ35_INJ_4_RAIL_P_3: -0.0246
+  response: 7E8056210DEFE14
+- expected_values:
+    POLO_PQ35_INJ_4_RAIL_P_3: -0.01585
+  response: 7E8056210DEFEC3
+- expected_values:
     POLO_PQ35_INJ_4_RAIL_P_3: -0.0104
   response: 7E8056210DEFF30
 - expected_values:

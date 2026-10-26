@@ -1,14 +1,8 @@
 command_id: 7E0.7E8.2211E0
 test_cases:
 - expected_values:
-    POLO_CMD_CRANK_TQ: 59.1
-  response: 7E8056211E0024F
-- expected_values:
-    POLO_CMD_CRANK_TQ: 66.2
-  response: 7E8056211E00296
-- expected_values:
-    POLO_CMD_CRANK_TQ: 88.6
-  response: 7E8056211E00376
+    POLO_CMD_CRANK_TQ: 5.2
+  response: 7E8056211E00034
 - expected_values:
     POLO_CMD_CRANK_TQ: -30.1
   response: 7E8056211E0FED3
@@ -16,11 +10,5 @@ test_cases:
     POLO_CMD_CRANK_TQ: -25.1
   response: 7E8056211E0FF05
 - expected_values:
-    POLO_CMD_CRANK_TQ: -24.8
-  response: 7E8056211E0FF08
-- expected_values:
     POLO_CMD_CRANK_TQ: -17.3
   response: 7E8056211E0FF53
-- expected_values:
-    POLO_CMD_CRANK_TQ: -15.3
-  response: 7E8056211E0FF67

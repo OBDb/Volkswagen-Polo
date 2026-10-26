@@ -16,11 +16,17 @@ test_cases:
     POLO_CHG_P_REGULATOR_LO: 3264.6
   response: 7E8056216EC3FC3
 - expected_values:
+    POLO_CHG_P_REGULATOR_LO: 3265
+  response: 7E8056216EC3FC5
+- expected_values:
     POLO_CHG_P_REGULATOR_LO: 3269.4
   response: 7E8056216EC3FDB
 - expected_values:
     POLO_CHG_P_REGULATOR_LO: 3272
   response: 7E8056216EC3FE8
+- expected_values:
+    POLO_CHG_P_REGULATOR_LO: 3272.4
+  response: 7E8056216EC3FEA
 - expected_values:
     POLO_CHG_P_REGULATOR_LO: 3282.8
   response: 7E8056216EC401E

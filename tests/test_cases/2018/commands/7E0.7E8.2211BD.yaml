@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.2211BD
 test_cases:
 - expected_values:
-    POLO_EOT_ECM: 12.9
-  response: 7E8056211BD0B2C
+    POLO_EOT_ECM: 7.3
+  response: 7E8056211BD0AF4
 - expected_values:
-    POLO_EOT_ECM: 15.6
-  response: 7E8056211BD0B47
-- expected_values:
-    POLO_EOT_ECM: 17
-  response: 7E8056211BD0B55
-- expected_values:
-    POLO_EOT_ECM: 21.8
-  response: 7E8056211BD0B85
-- expected_values:
-    POLO_EOT_ECM: 25.6
-  response: 7E8056211BD0BAB
-- expected_values:
-    POLO_EOT_ECM: 31.9
-  response: 7E8056211BD0BEA
-- expected_values:
-    POLO_EOT_ECM: 32.6
-  response: 7E8056211BD0BF1
+    POLO_EOT_ECM: 12
+  response: 7E8056211BD0B23
 - expected_values:
     POLO_EOT_ECM: 41.7
   response: 7E8056211BD0C4C

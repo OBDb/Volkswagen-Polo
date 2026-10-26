@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     POLO_MISFIRES_TOTAL: 1
   response: '7E8056211460001'
+- expected_values:
+    POLO_MISFIRES_TOTAL: 2
+  response: '7E8056211460002'

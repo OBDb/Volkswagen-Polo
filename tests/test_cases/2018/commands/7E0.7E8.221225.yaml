@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221225
 test_cases:
 - expected_values:
+    POLO_TQ_LOSS_ADPT_IDLE: 3.8
+  response: '7E8056212250026'
+- expected_values:
     POLO_TQ_LOSS_ADPT_IDLE: 8.9
   response: '7E8056212250059'
 - expected_values:

@@ -7,11 +7,20 @@ test_cases:
     POLO_BOOST_P_ACTUATOR_CMD: 0.25634
   response: 7E8056216EE0015
 - expected_values:
+    POLO_BOOST_P_ACTUATOR_CMD: 0.63475
+  response: 7E8056216EE0034
+- expected_values:
     POLO_BOOST_P_ACTUATOR_CMD: 0.64696
   response: 7E8056216EE0035
 - expected_values:
     POLO_BOOST_P_ACTUATOR_CMD: 0.73241
   response: 7E8056216EE003C
+- expected_values:
+    POLO_BOOST_P_ACTUATOR_CMD: 0.8911
+  response: 7E8056216EE0049
+- expected_values:
+    POLO_BOOST_P_ACTUATOR_CMD: 1.06199
+  response: 7E8056216EE0057
 - expected_values:
     POLO_BOOST_P_ACTUATOR_CMD: 1.08641
   response: 7E8056216EE0059

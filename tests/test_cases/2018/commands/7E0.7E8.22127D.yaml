@@ -4,23 +4,14 @@ test_cases:
     POLO_VARIABLE_VLV_TIM_INT_1: 55.93256
   response: 7E80562127D4798
 - expected_values:
-    POLO_VARIABLE_VLV_TIM_INT_1: 60.36676
-  response: 7E80562127D4D45
-- expected_values:
-    POLO_VARIABLE_VLV_TIM_INT_1: 60.79401
-  response: 7E80562127D4DD1
-- expected_values:
-    POLO_VARIABLE_VLV_TIM_INT_1: 60.89472
-  response: 7E80562127D4DF2
-- expected_values:
     POLO_VARIABLE_VLV_TIM_INT_1: 62.5152
   response: 7E80562127D5005
 - expected_values:
-    POLO_VARIABLE_VLV_TIM_INT_1: 64.21503
-  response: 7E80562127D5232
+    POLO_VARIABLE_VLV_TIM_INT_1: 66.36957
+  response: 7E80562127D54F4
 - expected_values:
-    POLO_VARIABLE_VLV_TIM_INT_1: 73.72124
-  response: 7E80562127D5E5D
+    POLO_VARIABLE_VLV_TIM_INT_1: 77.54204
+  response: 7E80562127D6341
 - expected_values:
     POLO_VARIABLE_VLV_TIM_INT_1: 81.4788
   response: 7E80562127D684B

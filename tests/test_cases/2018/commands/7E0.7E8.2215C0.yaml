@@ -1,23 +1,8 @@
 command_id: 7E0.7E8.2215C0
 test_cases:
 - expected_values:
-    POLO_IAT_INT_MANIFOLD_RAW: 14.25
-  response: 7E8046215C053
-- expected_values:
-    POLO_IAT_INT_MANIFOLD_RAW: 15
-  response: 7E8046215C054
-- expected_values:
-    POLO_IAT_INT_MANIFOLD_RAW: 15.75
-  response: 7E8046215C055
-- expected_values:
-    POLO_IAT_INT_MANIFOLD_RAW: 18
-  response: 7E8046215C058
-- expected_values:
-    POLO_IAT_INT_MANIFOLD_RAW: 18.75
-  response: 7E8046215C059
-- expected_values:
-    POLO_IAT_INT_MANIFOLD_RAW: 19.5
-  response: 7E8046215C05A
+    POLO_IAT_INT_MANIFOLD_RAW: 8.25
+  response: 7E8046215C04B
 - expected_values:
     POLO_IAT_INT_MANIFOLD_RAW: 21
   response: 7E8046215C05C

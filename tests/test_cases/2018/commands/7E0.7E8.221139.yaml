@@ -4,23 +4,11 @@ test_cases:
     POLO_MEAN_INJ_QUANTITY: 146.26
   response: '7E8056211393922'
 - expected_values:
-    POLO_MEAN_INJ_QUANTITY: 159.85
-  response: 7E8056211393E71
-- expected_values:
-    POLO_MEAN_INJ_QUANTITY: 160.61
-  response: 7E8056211393EBD
-- expected_values:
-    POLO_MEAN_INJ_QUANTITY: 163.85
-  response: '7E8056211394001'
-- expected_values:
-    POLO_MEAN_INJ_QUANTITY: 165.86
-  response: 7E80562113940CA
-- expected_values:
-    POLO_MEAN_INJ_QUANTITY: 188.08
-  response: '7E8056211394978'
-- expected_values:
-    POLO_MEAN_INJ_QUANTITY: 197.31
-  response: 7E8056211394D13
+    POLO_MEAN_INJ_QUANTITY: 156.7
+  response: 7E8056211393D36
 - expected_values:
     POLO_MEAN_INJ_QUANTITY: 202.07
   response: 7E8056211394EEF
+- expected_values:
+    POLO_MEAN_INJ_QUANTITY: 204.8
+  response: '7E8056211395000'

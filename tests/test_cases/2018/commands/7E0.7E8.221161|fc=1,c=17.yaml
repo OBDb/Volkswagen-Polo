@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     POLO_ENGINE_RPM_AT_IDLE_REQUIRED_7E0: 1000
   response: 7E80562116107D0
+- expected_values:
+    POLO_ENGINE_RPM_AT_IDLE_REQUIRED_7E0: 1060
+  response: '7E8056211610848'

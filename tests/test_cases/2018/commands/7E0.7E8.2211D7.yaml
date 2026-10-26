@@ -1,20 +1,8 @@
 command_id: 7E0.7E8.2211D7
 test_cases:
 - expected_values:
-    POLO_HIGH_FUEL_P_CMD: 16.4985
-  response: 7E8056211D780E5
-- expected_values:
-    POLO_HIGH_FUEL_P_CMD: 18.235
-  response: 7E8056211D78E76
-- expected_values:
-    POLO_HIGH_FUEL_P_CMD: 18.9275
-  response: 7E8056211D793DF
-- expected_values:
-    POLO_HIGH_FUEL_P_CMD: 20.3695
-  response: 7E8056211D79F23
-- expected_values:
-    POLO_HIGH_FUEL_P_CMD: 21.2175
-  response: 7E8056211D7A5C3
+    POLO_HIGH_FUEL_P_CMD: 13.5565
+  response: 7E8056211D769E9
 - expected_values:
     POLO_HIGH_FUEL_P_CMD: 21.35
   response: 7E8056211D7A6CC

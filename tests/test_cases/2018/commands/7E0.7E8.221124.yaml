@@ -4,23 +4,11 @@ test_cases:
     POLO_CAM_SPD: 480.25
   response: '7E8056211240781'
 - expected_values:
-    POLO_CAM_SPD: 557.75
-  response: 7E80562112408B7
-- expected_values:
-    POLO_CAM_SPD: 598.5
-  response: 7E805621124095A
-- expected_values:
     POLO_CAM_SPD: 699
   response: 7E8056211240AEC
-- expected_values:
-    POLO_CAM_SPD: 915.75
-  response: 7E8056211240E4F
 - expected_values:
     POLO_CAM_SPD: 960.25
   response: 7E8056211240F01
 - expected_values:
-    POLO_CAM_SPD: 997.25
-  response: 7E8056211240F95
-- expected_values:
-    POLO_CAM_SPD: 1073
-  response: 7E80562112410C4
+    POLO_CAM_SPD: 1288
+  response: '7E8056211241420'

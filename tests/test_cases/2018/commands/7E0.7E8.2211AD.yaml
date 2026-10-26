@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.2211AD
 test_cases:
 - expected_values:
-    POLO_MAF_CMD: 9.3
-  response: 7E8056211AD005D
-- expected_values:
     POLO_MAF_CMD: 11.4
   response: 7E8056211AD0072
-- expected_values:
-    POLO_MAF_CMD: 13
-  response: 7E8056211AD0082
 - expected_values:
     POLO_MAF_CMD: 24.9
   response: 7E8056211AD00F9
 - expected_values:
     POLO_MAF_CMD: 26.7
   response: 7E8056211AD010B
-- expected_values:
-    POLO_MAF_CMD: 31
-  response: 7E8056211AD0136
-- expected_values:
-    POLO_MAF_CMD: 36.9
-  response: 7E8056211AD0171
-- expected_values:
-    POLO_MAF_CMD: 46.3
-  response: 7E8056211AD01CF

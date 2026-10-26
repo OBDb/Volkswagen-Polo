@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.22F40D
 test_cases:
 - expected_values:
-    POLO_VSS: 3
-  response: 7E80462F40D03
+    POLO_VSS: 1
+  response: 7E80462F40D01
 - expected_values:
-    POLO_VSS: 7
-  response: 7E80462F40D07
-- expected_values:
-    POLO_VSS: 8
-  response: 7E80462F40D08
-- expected_values:
-    POLO_VSS: 9
-  response: 7E80462F40D09
-- expected_values:
-    POLO_VSS: 30
-  response: 7E80462F40D1E
-- expected_values:
-    POLO_VSS: 41
-  response: 7E80462F40D29
-- expected_values:
-    POLO_VSS: 43
-  response: 7E80462F40D2B
-- expected_values:
-    POLO_VSS: 47
-  response: 7E80462F40D2F
+    POLO_VSS: 48
+  response: 7E80462F40D30

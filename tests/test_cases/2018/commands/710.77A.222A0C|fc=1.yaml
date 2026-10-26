@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     POLO_BAT_SOC: 74
   response: 77A04622A0C4A
+- expected_values:
+    POLO_BAT_SOC: 79
+  response: 77A04622A0C4F

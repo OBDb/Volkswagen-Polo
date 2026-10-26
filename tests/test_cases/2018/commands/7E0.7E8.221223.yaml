@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     POLO_TQ_LOSS_ADPT_AC_COMP_7E0: 5.2
   response: '7E8056212230034'
+- expected_values:
+    POLO_TQ_LOSS_ADPT_AC_COMP_7E0: -3.6
+  response: 7E805621223FFDC

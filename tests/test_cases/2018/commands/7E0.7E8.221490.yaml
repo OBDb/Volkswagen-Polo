@@ -4,23 +4,11 @@ test_cases:
     POLO_BRAKE_BOOSTER_ACT: 491.98589
   response: '7E8056214903133'
 - expected_values:
-    POLO_BRAKE_BOOSTER_ACT: 556.00851
-  response: 7E805621490379A
-- expected_values:
-    POLO_BRAKE_BOOSTER_ACT: 615.92962
-  response: 7E8056214903D98
-- expected_values:
     POLO_BRAKE_BOOSTER_ACT: 679.9913
   response: '7E8056214904400'
 - expected_values:
     POLO_BRAKE_BOOSTER_ACT: 687.95994
   response: 7E80562149044CC
-- expected_values:
-    POLO_BRAKE_BOOSTER_ACT: 703.97536
-  response: '7E8056214904666'
-- expected_values:
-    POLO_BRAKE_BOOSTER_ACT: 723.97511
-  response: '7E8056214904866'
 - expected_values:
     POLO_BRAKE_BOOSTER_ACT: 759.99027
   response: 7E8056214904C00

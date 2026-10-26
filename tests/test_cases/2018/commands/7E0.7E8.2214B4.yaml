@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2214B4
 test_cases:
 - expected_values:
+    POLO_FUEL_LEVEL_INPUT_V1: 16
+  response: 7E8056214B40640
+- expected_values:
     POLO_FUEL_LEVEL_INPUT_V1: 26
   response: 7E8056214B40A28
 - expected_values:

@@ -4,23 +4,11 @@ test_cases:
     POLO_AAT_V2: 0.24219
   response: 7E805621004001F
 - expected_values:
-    POLO_AAT_V2: 0.67969
-  response: '7E8056210040057'
-- expected_values:
-    POLO_AAT_V2: 0.98438
-  response: 7E805621004007E
-- expected_values:
-    POLO_AAT_V2: 1
-  response: '7E8056210040080'
-- expected_values:
     POLO_AAT_V2: 5.42188
   response: 7E80562100402B6
 - expected_values:
-    POLO_AAT_V2: -3.39844
-  response: 7E805621004FE4D
-- expected_values:
-    POLO_AAT_V2: -1.27344
-  response: 7E805621004FF5D
+    POLO_AAT_V2: -3.94531
+  response: 7E805621004FE07
 - expected_values:
     POLO_AAT_V2: -1.00781
   response: 7E805621004FF7F
